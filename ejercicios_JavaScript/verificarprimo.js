@@ -1,27 +1,13 @@
-function esPrimo(numero) {
-    let primo = true;
-    if (numero <= 1) {
-        primo = false;
-    }
-    for (let i = 2; i < numero; i++) {
-        if (numero % i === 0) {
-            primo = false;
-        }
-      return true;
-    }
-}
-  
-  function añadirPrimos() {
-    let lista = [];
-    let numero = 2;
-    
-    while (lista.length < 10) {
-      if (primo(numero)) {
-        lista.push(numero)
+function isPrime(inpNum) {
+  if (inpNum <= 1) {return false;}
+  for (let index = 2; index < inpNum; index++) {
+      if (inpNum % index === 0) {
+          return false;
       }
-      numero++;
-    }
-    return lista;
   }
-  
-  console.log(añadirPrimos());
+  return true;
+}
+
+for (let index = 0; index < 30; index++) {
+  console.log("El num "+index+" es primo? "+isPrime(index));
+}
