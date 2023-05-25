@@ -1,12 +1,12 @@
-const primes = [];
+const primos = [];
 
-function isPrime(inpNum) {
+function esPrimo(inpNum) {
   if (inpNum <= 1) {
     return false;
   }
 
-  for (let index = 2; index < inpNum; index++) {
-    if (inpNum % index === 0) {
+  for (let i = 2; i < inpNum; i++) {
+    if (inpNum % i === 0) {
       return false;
     }
   }
@@ -14,13 +14,13 @@ function isPrime(inpNum) {
   return true;
 }
 
-function pushIntoArray() {
-  for (let index = 0; primes.length < 10; index++) {
-    if (isPrime(index)) {
-      primes.push(index);
+function PonerEnArray() {
+  for (let i = 0; primos.length < 10; i++) {
+    if (esPrimo(i)) {
+      primos.push(i);
     }
   }
-  return primes;
+  return primos;
 }
 
-console.log("Los números primos son: ", pushIntoArray());
+console.log("Los números primos son: ", PonerEnArray());

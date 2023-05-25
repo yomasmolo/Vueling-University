@@ -1,0 +1,302 @@
+{
+	"info": {
+		"_postman_id": "9889977b-a20a-4a71-a3cb-6c232e3333ed",
+		"name": "Collection_Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27537250"
+	},
+	"item": [
+		{
+			"name": "Poke",
+			"item": [
+				{
+					"name": "clefairy_habilidad_magi-guard",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const response = pm.response.json();\r",
+									"//console.log(response.abilities[1].ability.name);\r",
+									"const results = response.abilities;\r",
+									"\r",
+									"let tieneHabilidad = false;\r",
+									"results.forEach((n) => {\r",
+									"    if (n.ability.name === \"magic-guard\") {\r",
+									"        tieneHabilidad = true;\r",
+									"    };\r",
+									"});\r",
+									"pm.test(\"Tiene la habilidad magic-guard\", function () {\r",
+									"    pm.expect(tieneHabilidad).to.eql(true);\r",
+									"});\r",
+									"console.log(`Tiene la habilidad magic-guard --> ${tieneHabilidad}`);\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{ADD_PROTOCOL}}{{ADD_URL}}/pokemon/clefairy",
+							"host": [
+								"{{ADD_PROTOCOL}}{{ADD_URL}}"
+							],
+							"path": [
+								"pokemon",
+								"clefairy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "existe_directamente",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const response = pm.response.json();\r",
+									"console.log(response.results);\r",
+									"const poke = response.results;\r",
+									"let existe = false;\r",
+									"\r",
+									"poke.forEach ((n)=> {\r",
+									"    if (n.name === \"charmander\") {\r",
+									"        existe = true;\r",
+									"    };\r",
+									"});\r",
+									"pm.test(\"Existe\", function () {\r",
+									"    pm.expect(existe).to.eql(true);\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{ADD_PROTOCOL}}{{ADD_URL}}/pokemon",
+							"host": [
+								"{{ADD_PROTOCOL}}{{ADD_URL}}"
+							],
+							"path": [
+								"pokemon"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "encontrar_llamando_funcion",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"encontrarPokemon(pm, \"charmander\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{ADD_PROTOCOL}}{{ADD_URL}}/pokemon",
+							"host": [
+								"{{ADD_PROTOCOL}}{{ADD_URL}}"
+							],
+							"path": [
+								"pokemon"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"encontrarPokemon = function (pm, nombre) {",
+							"const response = pm.response.json();",
+							"console.log(response.results);",
+							"const poke = response.results;",
+							"let existe = false;",
+							"",
+							"poke.forEach ((n)=> {",
+							"    if (n.name === nombre) {",
+							"        existe = true;",
+							"    };",
+							"});",
+							"pm.test(\"Existe\", function () {",
+							"    pm.expect(existe).to.eql(true);",
+							"});",
+							"};"
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Reqres",
+			"item": [
+				{
+					"name": "comprobar_nombre_Janet",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const response = pm.response.json();\r",
+									"console.log(response.data);\r",
+									"\r",
+									"pm.test(\"Test del nombre\", function () {\r",
+									"    pm.expect(response.data.first_name).to.eql('Janet');\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{ADD_PROTOCOL}}{{ADD_URL}}/users/2",
+							"host": [
+								"{{ADD_PROTOCOL}}{{ADD_URL}}"
+							],
+							"path": [
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "nuevo_user_marc",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Marc\",\r\n    \"job\": \"QA-Junior\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{ADD_PROTOCOL}}{{ADD_URL}}/users",
+							"host": [
+								"{{ADD_PROTOCOL}}{{ADD_URL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "borrar_user_2",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 204\", function () {\r",
+									"    pm.response.to.have.status(204);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{ADD_PROTOCOL}}{{ADD_URL}}/users/2",
+							"host": [
+								"{{ADD_PROTOCOL}}{{ADD_URL}}"
+							],
+							"path": [
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"//postman.setGlobalVariable(pokemon, \"charmander\");"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"});"
+				]
+			}
+		}
+	]
+}
