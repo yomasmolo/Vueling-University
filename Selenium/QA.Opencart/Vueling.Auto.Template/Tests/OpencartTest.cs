@@ -80,6 +80,7 @@ namespace Opencart.Auto.Tests
         public void DeleteProduct()
         {
             string randomEmail = RandomEmailGenerator.GetRandomEmail();
+            string item = "Samsung Galaxy Tab 10.1";
             opencartHomePage = new OpencartHomePage(setUpWebDriver);
             registerPage = new RegisterPage(setUpWebDriver);
             loginPage = new LoginPage(setUpWebDriver);
@@ -99,8 +100,8 @@ namespace Opencart.Auto.Tests
             productPage.AddtoCard();
             productPage.goCart();
             Assert.AreEqual("Samsung Galaxy Tab 10.1", cartPage.GetSecondProduct());
-            cartPage.deleteitem();
-            
+            cartPage.deleteitem(item);
+            Assert.AreEqual("0 item(s) - $0.00", cartPage.GetCartPrice());
         }
         [TestCase]
         public void TestCheckSponsor()

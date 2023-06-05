@@ -9,6 +9,7 @@ using System;
 using NUnit.Framework;
 using OpenQA.Selenium.Support.PageObjects;
 using System.Xml.Linq;
+using NUnit.Framework;
 
 namespace Opencart.Auto.WebPages
 {
@@ -81,6 +82,8 @@ namespace Opencart.Auto.WebPages
             {
                 Console.WriteLine("El elemento no existe en la página.");
             }
+            string attributeAlt = altImg(sponsor).GetAttribute("alt");
+            Assert.AreEqual(sponsor, attributeAlt);
             return this;
         }
     }

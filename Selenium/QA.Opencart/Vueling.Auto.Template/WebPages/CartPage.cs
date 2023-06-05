@@ -25,9 +25,9 @@ namespace Opencart.Auto.WebPages
         {
             get { return WebDriver.FindElementByXPath("//div[@class='pull-right']"); }
         }
-        private IWebElement btnDelete
+        private IWebElement btnDelete(string item)
         {
-            get { return WebDriver.FindElementByXPath("//button[@class='btn btn-danger']"); }
+            return WebDriver.FindElementByXPath("//table[@class='table table-bordered']//a[text()='"+item+"']/following::button[contains(@class, 'btn-danger')][1]");
         }
         private IWebElement aContinue
         {
@@ -37,7 +37,10 @@ namespace Opencart.Auto.WebPages
         {
             get { return By.XPath("//h1[text()='Shopping Cart']"); }
         }
-        //button[@class='btn btn-danger']
+        private IWebElement btnCart
+        {
+            get { return WebDriver.FindElementByXPath("//span[@id='cart-total']"); }
+        }
         public string GetFirstProduct()
         {
             string nameProduct = firstProduct.Text;
@@ -53,12 +56,17 @@ namespace Opencart.Auto.WebPages
             btnCheckout.Click();
             return this;
         }
-        public CartPage deleteitem()
+        public CartPage deleteitem(string item)
         {
-            btnDelete.Click();
+            btnDelete(item).Click();
             new WebDriverWait(WebDriver, TimeSpan.FromSeconds(WaitTimeout)).Until(CustomExpectedConditions.ElementIsVisible(_ShoppingText));
             aContinue.Click();
             return this;
+        }
+        public string GetCartPrice()
+        {
+            string itemPrice = btnCart.Text;
+            return itemPrice;
         }
     }
 }
