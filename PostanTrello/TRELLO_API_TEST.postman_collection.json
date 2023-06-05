@@ -1,0 +1,2820 @@
+{
+	"info": {
+		"_postman_id": "cb858c3c-3566-4a54-9532-6f7a4c2074c9",
+		"name": "TRELLO_API_TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27537250"
+	},
+	"item": [
+		{
+			"name": "Regresions",
+			"item": [
+				{
+					"name": "Accions with Members",
+					"item": [
+						{
+							"name": "Create New Board",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"getIdBoard = function(pm) {\r",
+											"    let response = pm.response.json();\r",
+											"    pm.environment.set(\"idBoard\", response.id);\r",
+											"    \r",
+											"}"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"getIdBoard(pm);\r",
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/boards/?key={{key}}&token={{tokken}}&name=TrelloAPITest&prefs_background=green",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"boards",
+										""
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "name",
+											"value": "TrelloAPITest"
+										},
+										{
+											"key": "prefs_background",
+											"value": "green"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get the Members of a Board",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"getIdMember = function(pm) {\r",
+											"    let response = pm.response.json();\r",
+											"    pm.environment.set(\"idMember\", response[0].id);\r",
+											"    console.log(response);\r",
+											"}"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"getIdMember(pm);\r",
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/boards/:id/members?key={{key}}&token={{tokken}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"boards",
+										":id",
+										"members"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idBoard}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get a Member's Actions",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/members/:id/actions?key={{key}}&token={{tokken}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"members",
+										":id",
+										"actions"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idMember}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Boards that Member belongs to",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/members/:id/boards?key={{key}}&token={{tokken}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"members",
+										":id",
+										"boards"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idMember}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a List on a New Board",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"getIdNewList = function(pm) {\r",
+											"    let response = pm.response.json();\r",
+											"    pm.environment.set(\"idNewList\", response.id);\r",
+											"}"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);\r",
+											"getIdNewList(pm);\r",
+											"pm.test(\"Lista creada?\", () =>  {\r",
+											"    pm.expect(pm.response.json().name).to.eql(\"Nueva Lista\");\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/boards/:id/lists/?key={{key}}&token={{tokken}}&name=Nueva Lista",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"boards",
+										":id",
+										"lists",
+										""
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "name",
+											"value": "Nueva Lista"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idBoard}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create New Card",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"findIdCard = function(pm) {\r",
+											"    let response = pm.response.json();\r",
+											"    pm.environment.set(\"idCard\", response.id);\r",
+											"}"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"findIdCard(pm);\r",
+											"status200(pm);\r",
+											"pm.test(\"Card creada?\", function() {\r",
+											"    pm.expect(pm.response.json().desc).to.eql(\"New Card on List\");\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/cards/?key={{key}}&token={{tokken}}&idList={{idNewList}}&name=New Card on List&desc=New Card on List",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"cards",
+										""
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "idList",
+											"value": "{{idNewList}}"
+										},
+										{
+											"key": "name",
+											"value": "New Card on List"
+										},
+										{
+											"key": "desc",
+											"value": "New Card on List"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Member to New Card",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/cards/:id/idMembers?key={{key}}&token={{tokken}}&value={{idMember}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"cards",
+										":id",
+										"idMembers"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "value",
+											"value": "{{idMember}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idCard}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Member on card",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/cards/:id/idMembers/:idMember?key={{key}}&token={{tokken}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"cards",
+										":id",
+										"idMembers",
+										":idMember"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idCard}}"
+										},
+										{
+											"key": "idMember",
+											"value": "{{idMember}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Star for Board",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"getIdStar = function(pm) {\r",
+											"    let response = pm.response.json();\r",
+											"    pm.environment.set(\"idStar\", response.id);\r",
+											"    console.log(response.id);\r",
+											"}"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"getIdStar(pm);\r",
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/members/:id/boardStars?key={{key}}&token={{tokken}}&idBoard={{idBoard}}&pos=top",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"members",
+										":id",
+										"boardStars"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "idBoard",
+											"value": "{{idBoard}}"
+										},
+										{
+											"key": "pos",
+											"value": "top"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idMember}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get a Member's boardStars",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/members/:id/boardStars?key={{key}}&token={{tokken}}&idBoard={{idBoard}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"members",
+										":id",
+										"boardStars"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "idBoard",
+											"value": "{{idBoard}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idMember}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Board",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/boards/:id?key={{key}}&token={{tokken}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"boards",
+										":id"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idBoard}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Create and Modify List",
+					"item": [
+						{
+							"name": "Create New Board",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"getIdBoard = function(pm) {\r",
+											"    let response = pm.response.json();\r",
+											"    pm.environment.set(\"idBoard\", response.id);\r",
+											"}"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"getIdBoard(pm);\r",
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/boards/?key={{key}}&token={{tokken}}&name=TrelloAPITest&prefs_background=red",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"boards",
+										""
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "name",
+											"value": "TrelloAPITest"
+										},
+										{
+											"key": "prefs_background",
+											"value": "red"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Lists on a Board",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);\r",
+											"getAllIdList(pm);"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"getAllIdList = function(pm) {\r",
+											"let response = pm.response.json();\r",
+											"\r",
+											"for (let i=0; i < response.length; i++){\r",
+											"        if (response[i].name === \"Lista de tareas\"){\r",
+											"            //console.log(response[i].id);\r",
+											"            pm.environment.set(\"idFirstList\", response[i].id);\r",
+											"        }\r",
+											"        if (response[i].name === \"En proceso\"){\r",
+											"            //console.log(response[i].id);\r",
+											"            pm.environment.set(\"idSecondList\", response[i].id);\r",
+											"        }\r",
+											"        if (response[i].name === \"Hecho\"){\r",
+											"            //console.log(response[i].id);\r",
+											"            pm.environment.set(\"idthirdList\", response[i].id);\r",
+											"        }\r",
+											"    }\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/boards/:id/lists?key={{key}}&token={{tokken}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"boards",
+										":id",
+										"lists"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idBoard}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a List on a Board",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"getIdNewList = function(pm) {\r",
+											"    let response = pm.response.json();\r",
+											"    pm.environment.set(\"idNewList\", response.id);\r",
+											"}"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);\r",
+											"getIdNewList(pm);\r",
+											"pm.test(\"Lista creada?\", () =>  {\r",
+											"    pm.expect(pm.response.json().name).to.eql(\"Tareas Bloqueadas\");\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/boards/:id/lists/?key={{key}}&token={{tokken}}&name=Tareas Bloqueadas",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"boards",
+										":id",
+										"lists",
+										""
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "name",
+											"value": "Tareas Bloqueadas"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idBoard}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Verify Created List",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"let response = pm.response.json();\r",
+											"pm.test(\"Is List in Correct Board?\", function() {\r",
+											"    pm.expect(response.idBoard).to.eql(pm.environment.get(\"idBoard\"));\r",
+											"})\r",
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/lists/:idNewList?key={{key}}&token={{tokken}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"lists",
+										":idNewList"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "idNewList",
+											"value": "{{idNewList}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modify List position",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/lists/:idNewList?key={{key}}&token={{tokken}}&pos=bottom",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"lists",
+										":idNewList"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "pos",
+											"value": "bottom"
+										}
+									],
+									"variable": [
+										{
+											"key": "idNewList",
+											"value": "{{idNewList}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Card",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"findIdCard = function(pm) {\r",
+											"    let response = pm.response.json();\r",
+											"    pm.environment.set(\"idCard\", response.id);\r",
+											"}"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"findIdCard(pm);\r",
+											"status200(pm);\r",
+											"pm.test(\"Card creada?\", function() {\r",
+											"    pm.expect(pm.response.json().desc).to.eql(\"Primera Card\");\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/cards/?key={{key}}&token={{tokken}}&idList={{idNewList}}&name=Primera Card&desc=Primera Card",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"cards",
+										""
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "idList",
+											"value": "{{idNewList}}"
+										},
+										{
+											"key": "name",
+											"value": "Primera Card"
+										},
+										{
+											"key": "desc",
+											"value": "Primera Card"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Second Card",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"findIdCard = function(pm) {\r",
+											"    let response = pm.response.json();\r",
+											"    pm.environment.set(\"idSecondCard\", response.id);\r",
+											"}"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"findIdCard(pm);\r",
+											"status200(pm);\r",
+											"pm.test(\"Card creada?\", function() {\r",
+											"    pm.expect(pm.response.json().desc).to.eql(\"Segunda Card\");\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/cards/?key={{key}}&token={{tokken}}&idList={{idNewList}}&name=Segunda Card&desc=Segunda Card",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"cards",
+										""
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "idList",
+											"value": "{{idNewList}}"
+										},
+										{
+											"key": "name",
+											"value": "Segunda Card"
+										},
+										{
+											"key": "desc",
+											"value": "Segunda Card"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Move all Cards in List",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/lists/:id/moveAllCards?key={{key}}&token={{tokken}}&idBoard={{idBoard}}&idList={{idFirstList}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"lists",
+										":id",
+										"moveAllCards"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "idBoard",
+											"value": "{{idBoard}}"
+										},
+										{
+											"key": "idList",
+											"value": "{{idFirstList}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idNewList}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Cards in a List",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/lists/:id/cards?key={{key}}&token={{tokken}}&idBoard={{idBoard}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"lists",
+										":id",
+										"cards"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "idBoard",
+											"value": "{{idBoard}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idFirstList}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Archive or unarchive a list",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/lists/:id/closed?key={{key}}&token={{tokken}}&value=true",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"lists",
+										":id",
+										"closed"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "value",
+											"value": "true"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idNewList}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Board",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/boards/:id?key={{key}}&token={{tokken}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"boards",
+										":id"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idBoard}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Accions on a Card",
+					"item": [
+						{
+							"name": "Create New Board",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"getIdBoard = function(pm) {\r",
+											"    let response = pm.response.json();\r",
+											"    pm.environment.set(\"idBoard\", response.id);\r",
+											"}"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"getIdBoard(pm);\r",
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/boards/?key={{key}}&token={{tokken}}&name=TrelloAPITest&prefs_background=pink",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"boards",
+										""
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "name",
+											"value": "TrelloAPITest"
+										},
+										{
+											"key": "prefs_background",
+											"value": "pink"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Lists on a Board",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);\r",
+											"getAllIdList(pm);"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"getAllIdList = function(pm) {\r",
+											"let response = pm.response.json();\r",
+											"\r",
+											"for (let i=0; i < response.length; i++){\r",
+											"        if (response[i].name === \"Lista de tareas\"){\r",
+											"            //console.log(response[i].id);\r",
+											"            pm.environment.set(\"idFirstList\", response[i].id);\r",
+											"        }\r",
+											"        if (response[i].name === \"En proceso\"){\r",
+											"            //console.log(response[i].id);\r",
+											"            pm.environment.set(\"idSecondList\", response[i].id);\r",
+											"        }\r",
+											"        if (response[i].name === \"Hecho\"){\r",
+											"            //console.log(response[i].id);\r",
+											"            pm.environment.set(\"idthirdList\", response[i].id);\r",
+											"        }\r",
+											"    }\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/boards/:id/lists?key={{key}}&token={{tokken}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"boards",
+										":id",
+										"lists"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idBoard}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create a New Card",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"findIdCard = function(pm) {\r",
+											"    let response = pm.response.json();\r",
+											"    pm.environment.set(\"idCard\", response.id);\r",
+											"\r",
+											"}"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"findIdCard(pm);\r",
+											"status200(pm);\r",
+											"pm.test(\"Card creada?\", function() {\r",
+											"    pm.expect(pm.response.json().name).to.eql(\"Primera Tarea\");\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/cards/?key={{key}}&token={{tokken}}&idList={{idFirstList}}&name=Primera Tarea&desc=Primera tarea",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"cards",
+										""
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "idList",
+											"value": "{{idFirstList}}"
+										},
+										{
+											"key": "name",
+											"value": "Primera Tarea"
+										},
+										{
+											"key": "desc",
+											"value": "Primera tarea"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Verify Card",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/cards/:id?key={{key}}&token={{tokken}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"cards",
+										":id"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idCard}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Member on card",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/cards/:id/idMembers?key={{key}}&token={{tokken}}&value={{idMember}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"cards",
+										":id",
+										"idMembers"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "value",
+											"value": "{{idMember}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idCard}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Cards the Member is on",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/members/:id/cards?key={{key}}&token={{tokken}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"members",
+										":id",
+										"cards"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idMember}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Checklist on a Card",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"findIdChecklist = function(pm) {\r",
+											"    let response = pm.response.json();\r",
+											"    pm.environment.set(\"idChecklist\", response.id);\r",
+											"}"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"findIdChecklist(pm);\r",
+											"status200(pm);\r",
+											"pm.test(\"Checklist creada?\", function() {\r",
+											"    pm.expect(pm.response.json().name).to.eql(\"CheckList\");\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/checklists?key={{key}}&token={{tokken}}&idCard={{idCard}}&name=CheckList",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"checklists"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "idCard",
+											"value": "{{idCard}}"
+										},
+										{
+											"key": "name",
+											"value": "CheckList"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update name of Checklist",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);\r",
+											"pm.test(\"Checklist creada?\", function() {\r",
+											"    pm.expect(pm.response.json().name).to.eql(\"New Name Checklist\");\r",
+											"})"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/checklists/:id?key={{key}}&token={{tokken}}&name=New Name Checklist",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"checklists",
+										":id"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "name",
+											"value": "New Name Checklist"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idChecklist}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Checkitem on Checklist",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/checklists/:id/checkItems?key={{key}}&token={{tokken}}&name=New Item on Checklist",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"checklists",
+										":id",
+										"checkItems"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "name",
+											"value": "New Item on Checklist"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idChecklist}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Checkitem on Checklist Again",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/checklists/:id/checkItems?key={{key}}&token={{tokken}}&name=Second Item checked on Checklist&checked=true",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"checklists",
+										":id",
+										"checkItems"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										},
+										{
+											"key": "name",
+											"value": "Second Item checked on Checklist"
+										},
+										{
+											"key": "checked",
+											"value": "true"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idChecklist}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Checkitems on a Checklist",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"confirmCompleteTask = function(pm) {\r",
+											"    let response = pm.response.json();\r",
+											"    let taskCompleted = false;\r",
+											"    for (let i=0; i < response.length; i++){\r",
+											"            if (response[i].state === \"complete\"){\r",
+											"                //console.log(response[i].id);\r",
+											"                taskCompleted = true;\r",
+											"            }\r",
+											"        }\r",
+											"    return taskCompleted;\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);\r",
+											"pm.test(\"¿Alguna tarea completada?\", function () {\r",
+											"    pm.expect(confirmCompleteTask(pm)).to.eql(true);\r",
+											"});\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/checklists/:id/checkItems?key={{key}}&token={{tokken}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"checklists",
+										":id",
+										"checkItems"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idChecklist}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Board",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"status200(pm);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{PROTOCOL}}{{URL}}/boards/:id?key={{key}}&token={{tokken}}",
+									"host": [
+										"{{PROTOCOL}}{{URL}}"
+									],
+									"path": [
+										"boards",
+										":id"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "{{key}}"
+										},
+										{
+											"key": "token",
+											"value": "{{tokken}}"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "{{idBoard}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Card CRUD",
+			"item": [
+				{
+					"name": "Create Board",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"getIdBoard = function(pm) {\r",
+									"    let response = pm.response.json();\r",
+									"    pm.environment.set(\"idBoard\", response.id);\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"getIdBoard(pm);\r",
+									"status200(pm);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{PROTOCOL}}{{URL}}/boards/?key={{key}}&token={{tokken}}&name=TrelloAPITest&prefs_background=green",
+							"host": [
+								"{{PROTOCOL}}{{URL}}"
+							],
+							"path": [
+								"boards",
+								""
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{tokken}}"
+								},
+								{
+									"key": "name",
+									"value": "TrelloAPITest"
+								},
+								{
+									"key": "prefs_background",
+									"value": "green"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Lists on a Board",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"status200(pm);\r",
+									"getAllIdList(pm);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"getAllIdList = function(pm) {\r",
+									"let response = pm.response.json();\r",
+									"\r",
+									"for (let i=0; i < response.length; i++){\r",
+									"        if (response[i].name === \"Lista de tareas\"){\r",
+									"            //console.log(response[i].id);\r",
+									"            var currentValue = pm.environment.get(\"idFirstList\");\r",
+									"            var newValue = response[i].id;\r",
+									"            pm.environment.set(\"idFirstList\", newValue);\r",
+									"        }\r",
+									"        if (response[i].name === \"En proceso\"){\r",
+									"            //console.log(response[i].id);\r",
+									"            var currentValue = pm.environment.get(\"idSecondList\");\r",
+									"            var newValue = response[i].id;\r",
+									"            pm.environment.set(\"idSecondList\", response[i].id);\r",
+									"        }\r",
+									"        if (response[i].name === \"Hecho\"){\r",
+									"            //console.log(response[i].id);\r",
+									"            var currentValue = pm.environment.get(\"idthirdList\");\r",
+									"            var newValue = response[i].id;\r",
+									"            pm.environment.set(\"idthirdList\", response[i].id);\r",
+									"        }\r",
+									"    }\r",
+									"}\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{PROTOCOL}}{{URL}}/boards/:id/lists?key={{key}}&token={{tokken}}",
+							"host": [
+								"{{PROTOCOL}}{{URL}}"
+							],
+							"path": [
+								"boards",
+								":id",
+								"lists"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{tokken}}"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{idBoard}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create a New Card",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"findIdCard = function(pm) {\r",
+									"    let response = pm.response.json();\r",
+									"    pm.environment.set(\"idCard\", response.id);\r",
+									"\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"findIdCard(pm);\r",
+									"status200(pm);\r",
+									"pm.test(\"Card creada?\", function() {\r",
+									"    pm.expect(pm.response.json().name).to.eql(\"Primera Tarea\");\r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{PROTOCOL}}{{URL}}/cards/?key={{key}}&token={{tokken}}&idList={{idFirstList}}&name=Primera Tarea&desc=Primera tarea",
+							"host": [
+								"{{PROTOCOL}}{{URL}}"
+							],
+							"path": [
+								"cards",
+								""
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{tokken}}"
+								},
+								{
+									"key": "idList",
+									"value": "{{idFirstList}}"
+								},
+								{
+									"key": "name",
+									"value": "Primera Tarea"
+								},
+								{
+									"key": "desc",
+									"value": "Primera tarea"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modify Card",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"status200(pm);\r",
+									"pm.test(\"Card Modificada?\", function() {\r",
+									"    pm.expect(pm.response.json().desc).to.eql(\"La card se ha modificado\");\r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{PROTOCOL}}{{URL}}/cards/:id?key={{key}}&token={{tokken}}&name=Primera Card modificada&desc=La card se ha modificado",
+							"host": [
+								"{{PROTOCOL}}{{URL}}"
+							],
+							"path": [
+								"cards",
+								":id"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{tokken}}"
+								},
+								{
+									"key": "name",
+									"value": "Primera Card modificada"
+								},
+								{
+									"key": "desc",
+									"value": "La card se ha modificado"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{idCard}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Card",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"status200(pm);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{PROTOCOL}}{{URL}}/cards/:id?key={{key}}&token={{tokken}}&idList={{idNewList}}&name=Primera Card modificada&desc=La card se ha modificado",
+							"host": [
+								"{{PROTOCOL}}{{URL}}"
+							],
+							"path": [
+								"cards",
+								":id"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{tokken}}"
+								},
+								{
+									"key": "idList",
+									"value": "{{idNewList}}"
+								},
+								{
+									"key": "name",
+									"value": "Primera Card modificada"
+								},
+								{
+									"key": "desc",
+									"value": "La card se ha modificado"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{idCard}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Verify Delete Card",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"status404(pm);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{PROTOCOL}}{{URL}}/cards/:id?key={{key}}&token={{tokken}}&idList={{idNewList}}&name=Primera Card modificada&desc=La card se ha modificado",
+							"host": [
+								"{{PROTOCOL}}{{URL}}"
+							],
+							"path": [
+								"cards",
+								":id"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{tokken}}"
+								},
+								{
+									"key": "idList",
+									"value": "{{idNewList}}"
+								},
+								{
+									"key": "name",
+									"value": "Primera Card modificada"
+								},
+								{
+									"key": "desc",
+									"value": "La card se ha modificado"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{idCard}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Board",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"status200(pm);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{PROTOCOL}}{{URL}}/boards/:id?key={{key}}&token={{tokken}}",
+							"host": [
+								"{{PROTOCOL}}{{URL}}"
+							],
+							"path": [
+								"boards",
+								":id"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{tokken}}"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{idBoard}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Board CRUD",
+			"item": [
+				{
+					"name": "Create Board",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"getIdBoard = function(pm) {\r",
+									"    let response = pm.response.json();\r",
+									"    pm.environment.set(\"idBoard\", response.id);\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"getIdBoard(pm);\r",
+									"status200(pm);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{PROTOCOL}}{{URL}}/boards/?key={{key}}&token={{tokken}}&name=TrelloAPITest&prefs_background=green",
+							"host": [
+								"{{PROTOCOL}}{{URL}}"
+							],
+							"path": [
+								"boards",
+								""
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{tokken}}"
+								},
+								{
+									"key": "name",
+									"value": "TrelloAPITest"
+								},
+								{
+									"key": "prefs_background",
+									"value": "green"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Board Info",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"status200(pm);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{PROTOCOL}}{{URL}}/boards/:id?key={{key}}&token={{tokken}}&name=TrelloAPITest&prefs_background=green",
+							"host": [
+								"{{PROTOCOL}}{{URL}}"
+							],
+							"path": [
+								"boards",
+								":id"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{tokken}}"
+								},
+								{
+									"key": "name",
+									"value": "TrelloAPITest"
+								},
+								{
+									"key": "prefs_background",
+									"value": "green"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{idBoard}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modify Permission Level Background and Desc",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"status200(pm);\r",
+									"let response = pm.response.json();\r",
+									"pm.test(\"Is public now\", () =>  {\r",
+									"    pm.expect(response.prefs.permissionLevel).to.eql(\"public\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{PROTOCOL}}{{URL}}/boards/:id?key={{key}}&token={{tokken}}&prefs/background=red&desc=Trello Board Modificated&prefs/permissionLevel=public",
+							"host": [
+								"{{PROTOCOL}}{{URL}}"
+							],
+							"path": [
+								"boards",
+								":id"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{tokken}}"
+								},
+								{
+									"key": "prefs/background",
+									"value": "red"
+								},
+								{
+									"key": "desc",
+									"value": "Trello Board Modificated"
+								},
+								{
+									"key": "prefs/permissionLevel",
+									"value": "public"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{idBoard}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Board",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"status200(pm);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{PROTOCOL}}{{URL}}/boards/:id?key={{key}}&token={{tokken}}",
+							"host": [
+								"{{PROTOCOL}}{{URL}}"
+							],
+							"path": [
+								"boards",
+								":id"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "{{key}}"
+								},
+								{
+									"key": "token",
+									"value": "{{tokken}}"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{idBoard}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "ATTA2b51ade7135775dad512bfe1cbb646bdf863fbc1ecd004a8ae11e32ec9594522467C960B",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"status200 = function(pm) {",
+					"    pm.test(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"    });",
+					"}",
+					"status404 = function(pm) {",
+					"    pm.test(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(404);",
+					"    });",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
