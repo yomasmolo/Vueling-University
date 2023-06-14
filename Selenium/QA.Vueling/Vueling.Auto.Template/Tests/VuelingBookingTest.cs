@@ -25,10 +25,52 @@ namespace TicketsVueling.Auto.Tests
             string month = "agosto";
             string origin = "ALC";
             string destination = "BCN";
+            int daysMore = 10;
+            int passengers = 3;
+            int childs = 1;
+            int infants = 1;
             ticketVuelingHomePage = new TicketVuelingHomePage(setUpWebDriver);
             ticketVuelingHomePage.AcceptCookies();
-            ticketVuelingHomePage.ChooseOrigin(origin, destination);
-            ticketVuelingHomePage.firstDayAvailable(month);
+            ticketVuelingHomePage.ChooseOriginandDestination(origin, destination);
+            ticketVuelingHomePage.SelectFirstDateAndLastDate(month, daysMore);
+            ticketVuelingHomePage.SelectPassengers(passengers, childs, infants);
+            ticketVuelingHomePage.SearchFlights();
+        }
+        [TestCase]
+        public void OWTest()
+        {
+            string origin = "ALC";
+            string destination = "BCN";
+            int daysMore = 4;
+            int passengers = 1;
+            int childs = 0;
+            int infants = 1;
+            ticketVuelingHomePage = new TicketVuelingHomePage(setUpWebDriver);
+            ticketVuelingHomePage.AcceptCookies();
+            ticketVuelingHomePage.SelectOWOption();
+            ticketVuelingHomePage.ChooseOriginandDestination(origin, destination);
+            ticketVuelingHomePage.FirstDayAvailableAtXdaysView(daysMore);
+            ticketVuelingHomePage.SelectPassengers(passengers, childs, infants);
+            ticketVuelingHomePage.SearchFlights();
+        }
+        [TestCase]
+        public void BookFlightEnglish()
+        {
+            
+            
+            string origin = "ALC";
+            string destination = "BCN";
+            int daysMore = 4;
+            int passengers = 1;
+            int childs = 0;
+            int infants = 1;
+            ticketVuelingHomePage = new TicketVuelingHomePage(setUpWebDriver);
+            ticketVuelingHomePage.AcceptCookies();
+            ticketVuelingHomePage.SelectOWOption();
+            ticketVuelingHomePage.ChooseOriginandDestination(origin, destination);
+            ticketVuelingHomePage.FirstDayAvailableAtXdaysView(daysMore);
+            ticketVuelingHomePage.SelectPassengers(passengers, childs, infants);
+            ticketVuelingHomePage.SearchFlights();
         }
     }
 }

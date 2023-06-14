@@ -60,6 +60,7 @@ namespace TicketsVueling.Auto.Tests
         #region Definitions
         protected TicketVuelingHomePage ticketVuelingHomePage;
         protected SingUpPage singUpPage;
+        protected ScheduleSelectPage scheduleSelectPage;
         protected Page page;
         protected ISetUpWebDriver setUpWebDriver;
         protected ObjectsTest objectsTest;

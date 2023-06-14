@@ -150,6 +150,7 @@
     <Compile Include="Tests\TestBase.cs" />
     <Compile Include="WebPages.Base\CommonPage.cs" />
     <Compile Include="WebPages.Base\Page.cs" />
+    <Compile Include="WebPages\ScheduleSelectPage.cs" />
     <Compile Include="WebPages\SingUpPage.cs" />
     <Compile Include="WebPages\TicketsVuelingHomePage.cs" />
   </ItemGroup>
