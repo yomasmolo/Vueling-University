@@ -22,12 +22,12 @@ describe("UserTests", () => {
     cy.visit("/"); // Must be included to go to the specified URL
   });
 
-  it("User sign up", () => {
+  it("TC01 - User sign up", () => {
     demoHomePage.clickSignup();
     signupPage.fillFormSignup(newUserName, newUserPass);
   });
 
-  it("User login and check if is loged", () => {
+  it("TC02 - User login and check if is loged", () => {
     demoHomePage.clickLogin();
     loginPage.fillLogInForm(name, pass);
     demoHomePage.nameUserLoged().should("have.text", "Welcome " + name);

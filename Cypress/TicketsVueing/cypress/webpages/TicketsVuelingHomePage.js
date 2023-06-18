@@ -7,15 +7,17 @@ export class TicketsVuelingHomePage {
   cookiesButton = () => cy.getId("onetrust-accept-btn-handler");
   inputOrigin = () => cy.get("input#AvailabilitySearchInputSearchView_TextBoxMarketOrigin1");
   inputDestination = () => cy.get("input#AvailabilitySearchInputSearchView_TextBoxMarketDestination1");
-  options = (cityCode) => cy.get("a[data-id-code="+cityCode+"]");
+  options = (cityCode) => cy.get("a[data-id-code=" + cityCode + "]");
   btnOW = () => cy.get("label[for=AvailabilitySearchInputSearchView_OneWay]");
-  dayAvailable = () => cy.xpath("(//td[@data-handler='selectDay'])[1]");
-  monthToLeft = () => cy.xpath("//div[@class='ui-datepicker-group ui-datepicker-group-first']//span[@class='ui-datepicker-month']");
+  btnRT = () => cy.get("label[for=AvailabilitySearchInputSearchView_RoundTrip");
+  dayAvailable = () => cy.get("[data-handler='selectDay']");
+  monthToLeft = () => cy.get("div.ui-datepicker-group-first span.ui-datepicker-month");
   btnNextMonth = () => cy.get("a[title='Siguiente']");
   selectPassengers = () => cy.getId("adtSelectorDropdown");
   selectInfants = () => cy.getId("AvailabilitySearchInputSearchView_DropDownListPassengerType_INFANT");
   btnSearchFlight = () => cy.getId("AvailabilitySearchInputSearchView_btnClickToSearchNormal");
-  
+  divSearcher = () => cy.getId("buscador");
+
   // Methods
   acceptCookies() {
     this.cookiesButton().click().should("be.visible");
@@ -24,8 +26,11 @@ export class TicketsVuelingHomePage {
   chooseOWOption() {
     this.btnOW().click();
   }
+  chooseRTOption() {
+    this.btnRT().click();
+  }
 
-  chooseOrigin(cityCodeOrigin, cityCodeDestination) {
+  chooseOriginDestination(cityCodeOrigin, cityCodeDestination) {
     this.inputOrigin().click().should("be.visible"); // Action click with an assert
     this.inputOrigin().clear().type(cityCodeOrigin).should("have.value", cityCodeOrigin);
     this.options(cityCodeOrigin).click();
@@ -42,13 +47,24 @@ export class TicketsVuelingHomePage {
         this.selectFirstDayAvailable(month);
       }
     });
-    this.dayAvailable().click({force: true});
+    this.dayAvailable().first().click({ force: true });
+  }
+
+  selectFirstDayAndLastDay(month) {
+    this.monthToLeft().then((elemento) => {
+      const texto = elemento.text();
+      if (texto != month) {
+        this.btnNextMonth().click();
+        this.selectFirstDayAvailable(month);
+      }
+    });
+    this.dayAvailable().first().click({ force: true });
+    this.dayAvailable().eq(28).click({ force: true });
   }
 
   SelectPassengersAndSearch(passengers, infants) {
-    this.selectPassengers().select(passengers, { force: true }).should('have.value', passengers);
-    this.selectInfants().select(infants, { force: true }).should('have.value', infants);
+    this.selectPassengers().select(passengers, { force: true }).should("have.value", passengers);
+    this.selectInfants().select(infants, { force: true }).should("have.value", infants);
     this.btnSearchFlight().click();
   }
-
 }

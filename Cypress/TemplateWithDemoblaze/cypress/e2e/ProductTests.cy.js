@@ -20,7 +20,7 @@ describe("ProductTests", () => {
   });
 
   // Independent Test Case
-  xit("Add product to cart", () => {
+  xit("TC01 - Add product to cart", () => {
     // use x to not execute
     // Path added to the base URL
     cy.visit("/index.html");
@@ -29,7 +29,7 @@ describe("ProductTests", () => {
     producPage.addProductToCart();
   });
   // Independent Test Case
-  it("Add product to cart and Purchase", () => {
+  it(" TC02 - Add product to cart and Purchase", () => {
     // Path added to the base URL
     cy.visit("/index.html");
     demoHomePage.s6ProductPage();
