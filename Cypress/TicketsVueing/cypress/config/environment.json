@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://tickets.vueling.com/",
+  "baseUrl": "https://skysales-qa04-03.vueling.com/",
   "env": {
     "timeOutPersonalizado": "3000"
   }

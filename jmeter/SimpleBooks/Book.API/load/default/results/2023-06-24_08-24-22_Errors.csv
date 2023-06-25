@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687631066017,209,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,321,1,1,https://simple-books-api.glitch.me/api-clients,209,0,0
+1687631066232,134,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,317,1,1,https://simple-books-api.glitch.me/api-clients,134,0,0
+1687631067326,589,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,317,1,1,https://simple-books-api.glitch.me/api-clients,589,0,0
+1687631067919,134,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,317,1,1,https://simple-books-api.glitch.me/api-clients,134,0,0

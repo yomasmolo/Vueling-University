@@ -1,0 +1,36 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687690900995,704,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,351,1,1,https://simple-books-api.glitch.me/api-clients,704,0,394
+1687690901850,459,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,459,0,339
+1687690902309,125,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,125,0,0
+1687690902434,119,/books/1,200,OK,SimpleBooksApi - run 1-1,text,true,,374,295,1,1,https://simple-books-api.glitch.me/books/1,119,0,0
+1687690902561,356,/orders,201,Created,SimpleBooksApi - run 1-1,text,true,,267,361,1,1,https://simple-books-api.glitch.me/orders,356,0,0
+1687690902920,366,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,366,0,0
+1687690903285,123,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,123,0,0
+1687690903409,131,/books/2,200,OK,SimpleBooksApi - run 1-1,text,true,,338,295,1,1,https://simple-books-api.glitch.me/books/2,131,0,0
+1687690903543,130,/orders,404,Not Found,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",274,361,1,1,https://simple-books-api.glitch.me/orders,130,0,0
+1687690903675,205,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,205,0,0
+1687690903881,134,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,134,0,0
+1687690904015,123,/books/3,200,OK,SimpleBooksApi - run 1-1,text,true,,340,295,1,1,https://simple-books-api.glitch.me/books/3,123,0,0
+1687690904141,281,/orders,201,Created,SimpleBooksApi - run 1-1,text,true,,267,361,1,1,https://simple-books-api.glitch.me/orders,281,0,0
+1687690904424,281,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,280,0,0
+1687690904705,134,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,134,0,0
+1687690904839,239,/books/4,200,OK,SimpleBooksApi - run 1-1,text,true,,338,295,1,1,https://simple-books-api.glitch.me/books/4,239,0,0
+1687690905080,407,/orders,201,Created,SimpleBooksApi - run 1-1,text,true,,267,361,1,1,https://simple-books-api.glitch.me/orders,407,0,0

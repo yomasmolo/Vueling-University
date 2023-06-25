@@ -1,0 +1,36 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687632207044,0,/books/${id},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 42: https://simple-books-api.glitch.me/books/${id},SimpleBooksApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1133,0,1,1,https://simple-books-api.glitch.me/books/${id},0,0,0
+1687632207044,133,/orders,422,Unprocessable Entity,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[422]]]
+
+****** comparison: [[[200]]]
+
+/",339,378,1,1,https://simple-books-api.glitch.me/orders,133,0,0
+1687632207422,0,/orders/${orderId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 43: https://simple-books-api.glitch.me/orders/${orderId},SimpleBooksApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1139,0,1,1,https://simple-books-api.glitch.me/orders/${orderId},0,0,0
+1687632207422,0,/orders/${orderId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 43: https://simple-books-api.glitch.me/orders/${orderId},SimpleBooksApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1139,0,1,1,https://simple-books-api.glitch.me/orders/${orderId},0,0,0
+1687632207423,0,/orders/${orderId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 43: https://simple-books-api.glitch.me/orders/${orderId},SimpleBooksApi - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1139,0,1,1,https://simple-books-api.glitch.me/orders/${orderId},0,0,0

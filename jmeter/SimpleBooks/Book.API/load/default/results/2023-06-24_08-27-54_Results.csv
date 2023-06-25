@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687631274827,484,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,345,1,1,https://simple-books-api.glitch.me/api-clients,484,0,361
+1687631275318,227,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,337,1,1,https://simple-books-api.glitch.me/api-clients,227,0,0
+1687631275549,880,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,407,1,1,https://simple-books-api.glitch.me/api-clients,880,0,0
+1687631276433,480,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,403,1,1,https://simple-books-api.glitch.me/api-clients,480,0,0
+1687631276916,401,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,337,1,1,https://simple-books-api.glitch.me/api-clients,401,0,0
+1687631277323,477,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,403,1,1,https://simple-books-api.glitch.me/api-clients,477,0,0
+1687631277804,353,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,347,1,1,https://simple-books-api.glitch.me/api-clients,353,0,0
+1687631278161,166,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,339,1,1,https://simple-books-api.glitch.me/api-clients,166,0,0
+1687631278333,399,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,403,1,1,https://simple-books-api.glitch.me/api-clients,399,0,0
+1687631278737,124,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,339,1,1,https://simple-books-api.glitch.me/api-clients,124,0,0
+1687631278865,156,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,343,1,1,https://simple-books-api.glitch.me/api-clients,155,0,0
+1687631279027,594,/api-clients,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,SimpleBooksApi - setUp 1-1,text,false,,2859,0,1,1,https://simple-books-api.glitch.me/api-clients,0,0,0

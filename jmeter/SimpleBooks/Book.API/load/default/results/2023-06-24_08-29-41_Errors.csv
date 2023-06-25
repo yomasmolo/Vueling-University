@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687631381646,442,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,347,1,1,https://simple-books-api.glitch.me/api-clients,442,0,326

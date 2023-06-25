@@ -1,0 +1,14 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687631062839,684,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,323,1,1,https://simple-books-api.glitch.me/api-clients,684,0,389
+1687631063532,498,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,319,1,1,https://simple-books-api.glitch.me/api-clients,498,0,0
+1687631064038,690,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,317,1,1,https://simple-books-api.glitch.me/api-clients,690,0,0
+1687631064736,502,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,319,1,1,https://simple-books-api.glitch.me/api-clients,502,0,0
+1687631065247,765,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,319,1,1,https://simple-books-api.glitch.me/api-clients,765,0,0
+1687631066017,209,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,321,1,1,https://simple-books-api.glitch.me/api-clients,209,0,0
+1687631066232,134,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,317,1,1,https://simple-books-api.glitch.me/api-clients,134,0,0
+1687631066371,275,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,315,1,1,https://simple-books-api.glitch.me/api-clients,275,0,0
+1687631066651,668,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,317,1,1,https://simple-books-api.glitch.me/api-clients,668,0,0
+1687631067326,589,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,317,1,1,https://simple-books-api.glitch.me/api-clients,589,0,0
+1687631067919,134,/api-clients,409,Conflict,SimpleBooksApi - setUp 1-1,text,false,,283,317,1,1,https://simple-books-api.glitch.me/api-clients,134,0,0
+1687631068058,361,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,313,1,1,https://simple-books-api.glitch.me/api-clients,361,0,0
+1687631068426,783,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,319,1,1,https://simple-books-api.glitch.me/api-clients,782,0,0

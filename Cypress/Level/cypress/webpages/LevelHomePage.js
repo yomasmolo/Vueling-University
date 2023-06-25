@@ -19,7 +19,7 @@ export class LevelHomePage {
     switchTripToRT: () => cy.get('.switch-position [value="OW"]'),
     months: () => cy.get("span.month"),
     arrowNextMonth: () => cy.get("button.datepicker__next-action"),
-    availableDays: () => cy.get(".is-available:not(.is-previous-month"),
+    availableDays: () => cy.get(".is-available:not(.is-previous-month)"),
   };
 
   countPassengers = {

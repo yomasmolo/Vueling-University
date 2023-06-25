@@ -1,0 +1,55 @@
+---
+settings:
+  artifacts-dir: /path/to/results/tmp/folder
+  env:
+    BASE_DIR: /path/to/scripts/folder
+
+services:
+- module: shellexec
+  post-process:
+  - mkdir ${TAURUS_ARTIFACTS_DIR}/HTML
+  - jmeter -g ${TAURUS_ARTIFACTS_DIR}/Results.csv -o ${TAURUS_ARTIFACTS_DIR}/HTML
+
+execution:
+- executor: jmeter
+  scenario: smoke
+
+scenarios:
+  smoke:
+    script: ${BASE_DIR}/demo/Demo.jmx
+    variables:
+      Url: blazedemo.com
+      Protocol: https
+      ResultsPath: ${TAURUS_ARTIFACTS_DIR}/Results.csv
+      ErrorsPath: ${TAURUS_ARTIFACTS_DIR}/Errors.csv
+      TestDuration: 60
+      RampUp: 0
+      Threads: 2
+      Rpm: 5
+  load:
+    script: ${BASE_DIR}/demo/Demo.jmx
+    variables:
+      Url: blazedemo.com
+      Protocol: https
+      ResultsPath: ${TAURUS_ARTIFACTS_DIR}/Results.csv
+      ErrorsPath: ${TAURUS_ARTIFACTS_DIR}/Errors.csv
+      TestDuration: 60
+      RampUp: 0
+      Threads: 2
+      Rpm: 5
+
+reporting:
+- module: final-stats
+  summary: true
+  percentiles: true
+  failed-labels: false
+  test-duration: true
+  dump-csv: /tmp/perf_result_csv.csv
+- module: blazemeter
+  report-name: Taurus test report - Demo
+  test: Taurus test
+  project: Taurus test project
+
+testName:
+
+baseUrl:

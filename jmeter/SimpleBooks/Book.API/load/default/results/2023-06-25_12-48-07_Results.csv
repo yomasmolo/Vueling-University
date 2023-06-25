@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687690087520,587,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,351,1,1,https://simple-books-api.glitch.me/api-clients,587,0,381
+1687690088256,633,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,633,0,326
+1687690088890,207,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,207,0,0
+1687690089098,190,/books/1,200,OK,SimpleBooksApi - run 1-1,text,true,,374,295,1,1,https://simple-books-api.glitch.me/books/1,190,0,0
+1687690089296,208,/orders,201,Created,SimpleBooksApi - run 1-1,text,true,,267,361,1,1,https://simple-books-api.glitch.me/orders,208,0,0
+1687690089508,300,/orders,200,OK,SimpleBooksApi - run 1-1,text,true,,396,294,1,1,https://simple-books-api.glitch.me/orders,300,0,0
+1687690089812,127,/orders/vVXdv5tueom2wukOgN4yT,200,OK,SimpleBooksApi - run 1-1,text,true,,394,316,1,1,https://simple-books-api.glitch.me/orders/vVXdv5tueom2wukOgN4yT,127,0,0
+1687690089944,167,/orders/vVXdv5tueom2wukOgN4yT,204,No Content,SimpleBooksApi - run 1-1,,true,,111,368,1,1,https://simple-books-api.glitch.me/orders/vVXdv5tueom2wukOgN4yT,0,0,0
+1687690090115,578,/orders/vVXdv5tueom2wukOgN4yT,204,No Content,SimpleBooksApi - run 1-1,,true,,111,338,1,1,https://simple-books-api.glitch.me/orders/vVXdv5tueom2wukOgN4yT,0,0,0

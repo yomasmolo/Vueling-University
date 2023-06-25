@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687631032441,508,/api-clients,400,Bad Request,SimpleBooksApi - setUp 1-1,,false,,117,342,1,1,https://simple-books-api.glitch.me/api-clients,508,0,398
+1687631032958,329,/api-clients,400,Bad Request,SimpleBooksApi - setUp 1-1,,false,,117,330,1,1,https://simple-books-api.glitch.me/api-clients,329,0,220
+1687631033291,315,/api-clients,400,Bad Request,SimpleBooksApi - setUp 1-1,,false,,117,336,1,1,https://simple-books-api.glitch.me/api-clients,315,0,210
+1687631033614,332,/api-clients,400,Bad Request,SimpleBooksApi - setUp 1-1,,false,,117,336,1,1,https://simple-books-api.glitch.me/api-clients,332,0,220
+1687631033951,323,/api-clients,400,Bad Request,SimpleBooksApi - setUp 1-1,,false,,117,332,1,1,https://simple-books-api.glitch.me/api-clients,323,0,215
+1687631034284,325,/api-clients,400,Bad Request,SimpleBooksApi - setUp 1-1,,false,,117,336,1,1,https://simple-books-api.glitch.me/api-clients,325,0,216
+1687631034617,323,/api-clients,400,Bad Request,SimpleBooksApi - setUp 1-1,,false,,117,330,1,1,https://simple-books-api.glitch.me/api-clients,323,0,214
+1687631034947,313,/api-clients,400,Bad Request,SimpleBooksApi - setUp 1-1,,false,,117,340,1,1,https://simple-books-api.glitch.me/api-clients,313,0,207
+1687631035268,259,/api-clients,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,SimpleBooksApi - setUp 1-1,text,false,,2800,0,1,1,https://simple-books-api.glitch.me/api-clients,0,0,259
