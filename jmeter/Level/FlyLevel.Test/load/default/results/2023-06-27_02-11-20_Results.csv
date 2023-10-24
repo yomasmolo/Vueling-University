@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687867880935,972,Get Home,200,OK,FlyLevel - run 1-1,text,true,,170164,1277,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,805,0,199
+1687867881908,2752,GET Flight,200,OK,FlyLevel - run 1-1,text,true,,307163,2859,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select,83,0,0
+1687867881908,83,GET Flight-0,302,Found,FlyLevel - run 1-1,text,true,,1439,1477,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/InternalSelect?k=BCNEZE&o1=BCN&d1=EZE&ADT=1&CHD=0&inl=0&mm=false&dd1=2023-07-10&dd2=2023-07-15&r=true,83,0,0
+1687867881992,2668,GET Flight-1,200,OK,FlyLevel - run 1-1,text,true,,305724,1382,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select,2479,0,0

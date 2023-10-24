@@ -7,12 +7,14 @@ export class TicketsVuelingHomePage {
   cookiesButton = () => cy.getId("onetrust-accept-btn-handler");
   inputOrigin = () => cy.get("input#AvailabilitySearchInputSearchView_TextBoxMarketOrigin1");
   inputDestination = () => cy.get("input#AvailabilitySearchInputSearchView_TextBoxMarketDestination1");
-  options = (cityCode) => cy.get("a[data-id-code=" + cityCode + "]");
-  btnOW = () => cy.get("label[for=AvailabilitySearchInputSearchView_OneWay]");
-  btnRT = () => cy.get("label[for=AvailabilitySearchInputSearchView_RoundTrip");
+  options = (cityCode) => cy.get("[data-id-code=" + cityCode + "]");
+  btnOW = () => cy.get(`[for="AvailabilitySearchInputSearchView_OneWay"]`);
+  btnRT = () => cy.get(`[for="AvailabilitySearchInputSearchView_RoundTrip"]`);
   dayAvailable = () => cy.get("[data-handler='selectDay']");
   monthToLeft = () => cy.get("div.ui-datepicker-group-first span.ui-datepicker-month");
   btnNextMonth = () => cy.get("a[title='Siguiente']");
+  listAdults = () => cy.get(`.adt_select_button#DropDownListPassengerType_ADT_PLUS`);
+  listChilds = () => cy.get(`.column_4.buscador_pasajeros_childs`);
   selectPassengers = () => cy.getId("adtSelectorDropdown");
   selectInfants = () => cy.getId("AvailabilitySearchInputSearchView_DropDownListPassengerType_INFANT");
   btnSearchFlight = () => cy.getId("AvailabilitySearchInputSearchView_btnClickToSearchNormal");
@@ -63,8 +65,10 @@ export class TicketsVuelingHomePage {
   }
 
   SelectPassengersAndSearch(passengers, infants) {
-    this.selectPassengers().select(passengers, { force: true }).should("have.value", passengers);
-    this.selectInfants().select(infants, { force: true }).should("have.value", infants);
+    this.listAdults().click();
+    this.selectPassengers().select(passengers).should("have.value", passengers);
+    this.listChilds().click();
+    this.selectInfants().select(infants).should("have.value", infants);
     this.btnSearchFlight().click();
   }
 }

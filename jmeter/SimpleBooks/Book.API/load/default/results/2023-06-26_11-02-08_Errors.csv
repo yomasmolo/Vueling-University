@@ -1,0 +1,77 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687770130117,122,/orders,422,Unprocessable Entity,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[422]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[422]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[422]]]
+
+****** comparison: [[[204]]]
+
+/	",339,327,1,1,https://simple-books-api.glitch.me/orders,122,0,0
+1687770131056,118,/orders/,404,Not Found,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",397,347,1,1,https://simple-books-api.glitch.me/orders/,118,0,0
+1687770131180,117,/orders/,404,Not Found,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",398,317,1,1,https://simple-books-api.glitch.me/orders/,117,0,0
+1687770131416,89,/books,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,1,1,https://simple-books-api.glitch.me/books,0,0,0

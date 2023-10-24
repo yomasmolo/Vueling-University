@@ -1,0 +1,77 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687770233027,145,/orders,422,Unprocessable Entity,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[422]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[422]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[422]]]
+
+****** comparison: [[[204]]]
+
+/	",339,327,1,1,https://simple-books-api.glitch.me/orders,145,0,0
+1687770233445,818,/orders/,404,Not Found,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",397,347,1,1,https://simple-books-api.glitch.me/orders/,818,0,0
+1687770234271,117,/orders/,404,Not Found,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",398,317,1,1,https://simple-books-api.glitch.me/orders/,117,0,0
+1687770234513,120,/books,Non HTTP response code: org.apache.http.ConnectionClosedException,Non HTTP response message: Connection is closed,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: org.apache.http.ConnectionClosedException]]]
+
+****** comparison: [[[200                                                              ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: org.apache.http.ConnectionClosedException]]]
+
+****** comparison: [[[201                                                              ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: org.apache.http.ConnectionClosedException]]]
+
+****** comparison: [[[204                                                              ]]]
+
+/	",1863,0,1,1,https://simple-books-api.glitch.me/books,0,0,0

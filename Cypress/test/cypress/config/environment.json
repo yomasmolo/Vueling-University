@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://mobile-pre.vueling.com/",
+  "env": {
+    "timeOutPersonalizado": "3000"
+  }
+}

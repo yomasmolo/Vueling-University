@@ -1,0 +1,730 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687950453252,772,Get Token,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,337,1,1,https://simple-books-api.glitch.me/api-clients,772,0,445
+1687950454182,481,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,481,0,356
+1687950454182,484,/status,200,OK,SimpleBooksApi - run 1-4,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,484,0,355
+1687950454192,477,/status,200,OK,SimpleBooksApi - run 1-9,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,477,0,346
+1687950454192,482,/status,200,OK,SimpleBooksApi - run 1-8,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,481,0,348
+1687950454192,496,/status,200,OK,SimpleBooksApi - run 1-7,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,496,0,348
+1687950454193,504,/status,200,OK,SimpleBooksApi - run 1-10,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,504,0,351
+1687950454188,512,/status,200,OK,SimpleBooksApi - run 1-5,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,512,0,366
+1687950454180,528,/status,200,OK,SimpleBooksApi - run 1-2,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,527,0,375
+1687950454189,522,/status,200,OK,SimpleBooksApi - run 1-6,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,522,0,371
+1687950454180,597,/status,200,OK,SimpleBooksApi - run 1-3,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,597,0,383
+1687950454664,235,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,235,0,0
+1687950454666,246,/books,200,OK,SimpleBooksApi - run 1-4,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,246,0,0
+1687950454669,249,/books,200,OK,SimpleBooksApi - run 1-9,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,249,0,0
+1687950454674,249,/books,200,OK,SimpleBooksApi - run 1-8,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,249,0,0
+1687950454688,307,/books,200,OK,SimpleBooksApi - run 1-7,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,307,0,0
+1687950454697,301,/books,200,OK,SimpleBooksApi - run 1-10,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,301,0,0
+1687950454711,467,/books,200,OK,SimpleBooksApi - run 1-6,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,467,0,0
+1687950454899,278,/books/1,200,OK,SimpleBooksApi - run 1-1,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,278,0,0
+1687950454708,469,/books,200,OK,SimpleBooksApi - run 1-2,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,469,0,0
+1687950454778,401,/books,200,OK,SimpleBooksApi - run 1-3,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,401,0,0
+1687950454700,479,/books,200,OK,SimpleBooksApi - run 1-5,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,479,0,0
+1687950454912,279,/books/4,200,OK,SimpleBooksApi - run 1-4,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,279,0,0
+1687950454919,272,/books/1,200,OK,SimpleBooksApi - run 1-9,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,272,0,0
+1687950454923,272,/books/2,200,OK,SimpleBooksApi - run 1-8,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,272,0,0
+1687950454995,205,/books/bookId,404,Not Found,SimpleBooksApi - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,205,0,0
+1687950454998,280,/books/3,200,OK,SimpleBooksApi - run 1-10,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,280,0,0
+1687950455179,131,/books/3,200,OK,SimpleBooksApi - run 1-3,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,131,0,0
+1687950455179,136,/books/5,200,OK,SimpleBooksApi - run 1-5,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,136,0,0
+1687950455178,140,/books/2,200,OK,SimpleBooksApi - run 1-2,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,140,0,0
+1687950455178,143,/books/6,200,OK,SimpleBooksApi - run 1-6,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,143,0,0
+1687950455213,182,/books/4,200,OK,SimpleBooksApi - run 1-4,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,182,0,0
+1687950455213,188,/books/1,200,OK,SimpleBooksApi - run 1-1,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,188,0,0
+1687950455213,191,/books/1,200,OK,SimpleBooksApi - run 1-9,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,191,0,0
+1687950455217,190,/books/2,200,OK,SimpleBooksApi - run 1-8,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,190,0,0
+1687950455286,125,/books/3,200,OK,SimpleBooksApi - run 1-10,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,125,0,0
+1687950455226,185,/books/bookId,404,Not Found,SimpleBooksApi - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,185,0,0
+1687950455320,197,/books/3,200,OK,SimpleBooksApi - run 1-3,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,197,0,0
+1687950455325,194,/books/5,200,OK,SimpleBooksApi - run 1-5,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,194,0,0
+1687950455331,247,/books/6,200,OK,SimpleBooksApi - run 1-6,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,247,0,0
+1687950455329,249,/books/2,200,OK,SimpleBooksApi - run 1-2,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,249,0,0
+1687950455412,517,Post available order,201,Created,SimpleBooksApi - run 1-1,text,true,,267,351,10,10,https://simple-books-api.glitch.me/orders,517,0,0
+1687950455407,879,Post available order,201,Created,SimpleBooksApi - run 1-4,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,879,0,0
+1687950455413,1174,Post available order,201,Created,SimpleBooksApi - run 1-9,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1174,0,0
+1687950455418,1973,Post available order,201,Created,SimpleBooksApi - run 1-10,text,true,,267,350,10,10,https://simple-books-api.glitch.me/orders,1973,0,0
+1687950455527,2183,Post available order,201,Created,SimpleBooksApi - run 1-5,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,2182,0,0
+1687950455526,2392,Post available order,201,Created,SimpleBooksApi - run 1-3,text,true,,267,351,10,10,https://simple-books-api.glitch.me/orders,2392,0,0
+1687950455591,2631,Post available order,201,Created,SimpleBooksApi - run 1-6,text,true,,267,350,10,10,https://simple-books-api.glitch.me/orders,2631,0,0
+1687950455936,2348,Get all orders,200,OK,SimpleBooksApi - run 1-1,text,true,,1496,294,10,10,https://simple-books-api.glitch.me/orders,2348,0,0
+1687950456292,2013,Get all orders,200,OK,SimpleBooksApi - run 1-4,text,true,,1496,294,10,10,https://simple-books-api.glitch.me/orders,2013,0,0
+1687950456592,1786,Get all orders,200,OK,SimpleBooksApi - run 1-9,text,true,,1496,294,10,10,https://simple-books-api.glitch.me/orders,1786,0,0
+1687950457395,1097,Get all orders,200,OK,SimpleBooksApi - run 1-10,text,true,,1496,294,10,10,https://simple-books-api.glitch.me/orders,1097,0,0
+1687950457713,787,Get all orders,200,OK,SimpleBooksApi - run 1-5,text,true,,1496,294,10,10,https://simple-books-api.glitch.me/orders,787,0,0
+1687950457922,676,Get all orders,200,OK,SimpleBooksApi - run 1-3,text,true,,1496,294,10,10,https://simple-books-api.glitch.me/orders,676,0,0
+1687950458225,459,Get all orders,200,OK,SimpleBooksApi - run 1-6,text,true,,1496,294,10,10,https://simple-books-api.glitch.me/orders,459,0,0
+1687950458308,804,Get order CEZFy0jRdn5AdPmUA96aD,200,OK,SimpleBooksApi - run 1-4,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/CEZFy0jRdn5AdPmUA96aD,803,0,0
+1687950458287,825,Get order 7MN2rahAdpmiZ21jxqBbD,200,OK,SimpleBooksApi - run 1-1,text,true,,396,316,10,10,https://simple-books-api.glitch.me/orders/7MN2rahAdpmiZ21jxqBbD,825,0,0
+1687950458382,970,Get order 3Sy72L2UY-lgjMBrveWwy,200,OK,SimpleBooksApi - run 1-9,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/3Sy72L2UY-lgjMBrveWwy,970,0,0
+1687950458504,1049,Get order KhmsL0oW0tdPCuk0j6Wa4,200,OK,SimpleBooksApi - run 1-5,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/KhmsL0oW0tdPCuk0j6Wa4,1049,0,0
+1687950458496,1057,Get order RXDD-5VVMrsEEBWHHeWc1,200,OK,SimpleBooksApi - run 1-10,text,true,,395,316,10,10,https://simple-books-api.glitch.me/orders/RXDD-5VVMrsEEBWHHeWc1,1057,0,0
+1687950458601,1095,Get order zX_NIfSzIGUU0UmreF7eQ,200,OK,SimpleBooksApi - run 1-3,text,true,,396,316,10,10,https://simple-books-api.glitch.me/orders/zX_NIfSzIGUU0UmreF7eQ,1095,0,0
+1687950458688,1080,Get order FocEv6POsc-RNl3tn9CYL,200,OK,SimpleBooksApi - run 1-6,text,true,,395,316,10,10,https://simple-books-api.glitch.me/orders/FocEv6POsc-RNl3tn9CYL,1080,0,0
+1687950459115,956,Patch order 7MN2rahAdpmiZ21jxqBbD,204,No Content,SimpleBooksApi - run 1-1,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/7MN2rahAdpmiZ21jxqBbD,0,0,0
+1687950459115,1228,Patch order CEZFy0jRdn5AdPmUA96aD,204,No Content,SimpleBooksApi - run 1-4,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/CEZFy0jRdn5AdPmUA96aD,0,0,0
+1687950459355,1438,Patch order 3Sy72L2UY-lgjMBrveWwy,204,No Content,SimpleBooksApi - run 1-9,,true,,111,370,10,10,https://simple-books-api.glitch.me/orders/3Sy72L2UY-lgjMBrveWwy,0,0,0
+1687950459556,1446,Patch order RXDD-5VVMrsEEBWHHeWc1,204,No Content,SimpleBooksApi - run 1-10,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/RXDD-5VVMrsEEBWHHeWc1,0,0,0
+1687950459558,1739,Patch order KhmsL0oW0tdPCuk0j6Wa4,204,No Content,SimpleBooksApi - run 1-5,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/KhmsL0oW0tdPCuk0j6Wa4,0,0,0
+1687950459699,2012,Patch order zX_NIfSzIGUU0UmreF7eQ,204,No Content,SimpleBooksApi - run 1-3,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/zX_NIfSzIGUU0UmreF7eQ,0,0,0
+1687950459770,2222,Patch order FocEv6POsc-RNl3tn9CYL,204,No Content,SimpleBooksApi - run 1-6,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/FocEv6POsc-RNl3tn9CYL,0,0,0
+1687950460075,2233,Delete order 7MN2rahAdpmiZ21jxqBbD,204,No Content,SimpleBooksApi - run 1-1,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/7MN2rahAdpmiZ21jxqBbD,0,0,0
+1687950460348,2551,Delete order CEZFy0jRdn5AdPmUA96aD,204,No Content,SimpleBooksApi - run 1-4,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/CEZFy0jRdn5AdPmUA96aD,0,0,0
+1687950460799,2915,Delete order 3Sy72L2UY-lgjMBrveWwy,204,No Content,SimpleBooksApi - run 1-9,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/3Sy72L2UY-lgjMBrveWwy,0,0,0
+1687950461006,2987,Delete order RXDD-5VVMrsEEBWHHeWc1,204,No Content,SimpleBooksApi - run 1-10,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/RXDD-5VVMrsEEBWHHeWc1,0,0,0
+1687950461302,3014,Delete order KhmsL0oW0tdPCuk0j6Wa4,204,No Content,SimpleBooksApi - run 1-5,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/KhmsL0oW0tdPCuk0j6Wa4,0,0,0
+1687950461714,2963,Delete order zX_NIfSzIGUU0UmreF7eQ,204,No Content,SimpleBooksApi - run 1-3,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/zX_NIfSzIGUU0UmreF7eQ,0,0,0
+1687950461996,3100,Delete order FocEv6POsc-RNl3tn9CYL,204,No Content,SimpleBooksApi - run 1-6,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/FocEv6POsc-RNl3tn9CYL,0,0,0
+1687950462310,2879,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,2879,0,0
+1687950462965,2416,/status,200,OK,SimpleBooksApi - run 1-8,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,2415,0,0
+1687950462901,2480,/status,200,OK,SimpleBooksApi - run 1-4,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,2479,0,0
+1687950463714,1672,/status,200,OK,SimpleBooksApi - run 1-9,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1672,0,0
+1687950463957,1724,/status,200,OK,SimpleBooksApi - run 1-7,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1724,0,0
+1687950463993,1697,/status,200,OK,SimpleBooksApi - run 1-10,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1697,0,0
+1687950464317,1378,/status,200,OK,SimpleBooksApi - run 1-5,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1378,0,0
+1687950464678,1028,/status,200,OK,SimpleBooksApi - run 1-3,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1028,0,0
+1687950464778,931,/status,200,OK,SimpleBooksApi - run 1-2,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,931,0,0
+1687950465097,696,/status,200,OK,SimpleBooksApi - run 1-6,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,696,0,0
+1687950465189,620,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,620,0,0
+1687950465380,718,/books,200,OK,SimpleBooksApi - run 1-8,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,718,0,0
+1687950465380,728,/books,200,OK,SimpleBooksApi - run 1-4,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,728,0,0
+1687950465385,805,/books,200,OK,SimpleBooksApi - run 1-9,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,805,0,0
+1687950465689,511,/books,200,OK,SimpleBooksApi - run 1-10,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,511,0,0
+1687950465680,520,/books,200,OK,SimpleBooksApi - run 1-7,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,520,0,0
+1687950465695,591,/books,200,OK,SimpleBooksApi - run 1-5,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,591,0,0
+1687950465705,585,/books,200,OK,SimpleBooksApi - run 1-3,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,585,0,0
+1687950465709,583,/books,200,OK,SimpleBooksApi - run 1-2,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,583,0,0
+1687950465792,591,/books,200,OK,SimpleBooksApi - run 1-6,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,591,0,0
+1687950465809,581,/books/bookId,404,Not Found,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,581,0,0
+1687950466098,305,/books/4,200,OK,SimpleBooksApi - run 1-8,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,305,0,0
+1687950466109,392,/books/1,200,OK,SimpleBooksApi - run 1-4,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,392,0,0
+1687950466191,311,/books/2,200,OK,SimpleBooksApi - run 1-9,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,311,0,0
+1687950466200,382,/books/5,200,OK,SimpleBooksApi - run 1-7,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,382,0,0
+1687950466287,309,/books/4,200,OK,SimpleBooksApi - run 1-5,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,309,0,0
+1687950466200,396,/books/3,200,OK,SimpleBooksApi - run 1-10,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,396,0,0
+1687950466290,341,/books/5,200,OK,SimpleBooksApi - run 1-3,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,341,0,0
+1687950466292,395,/books/6,200,OK,SimpleBooksApi - run 1-2,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,395,0,0
+1687950466394,522,/books/bookId,404,Not Found,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,522,0,0
+1687950466383,720,/books/6,200,OK,SimpleBooksApi - run 1-6,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,720,0,0
+1687950466505,602,/books/1,200,OK,SimpleBooksApi - run 1-4,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,602,0,0
+1687950466406,701,/books/4,200,OK,SimpleBooksApi - run 1-8,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,701,0,0
+1687950466505,606,/books/2,200,OK,SimpleBooksApi - run 1-9,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,606,0,0
+1687950466585,527,/books/5,200,OK,SimpleBooksApi - run 1-7,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,527,0,0
+1687950466599,518,/books/3,200,OK,SimpleBooksApi - run 1-10,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,518,0,0
+1687950466599,520,/books/4,200,OK,SimpleBooksApi - run 1-5,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,520,0,0
+1687950466634,553,/books/5,200,OK,SimpleBooksApi - run 1-3,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,552,0,0
+1687950466690,518,/books/6,200,OK,SimpleBooksApi - run 1-2,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,518,0,0
+1687950467111,406,Post available order,201,Created,SimpleBooksApi - run 1-4,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,405,0,0
+1687950467111,1271,Post available order,201,Created,SimpleBooksApi - run 1-8,text,true,,267,350,10,10,https://simple-books-api.glitch.me/orders,1271,0,0
+1687950467116,1591,Post available order,201,Created,SimpleBooksApi - run 1-7,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1591,0,0
+1687950467106,1602,/books/6,200,OK,SimpleBooksApi - run 1-6,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,1602,0,0
+1687950467121,1883,Post available order,201,Created,SimpleBooksApi - run 1-10,text,true,,267,350,10,10,https://simple-books-api.glitch.me/orders,1883,0,0
+1687950467122,2180,Post available order,201,Created,SimpleBooksApi - run 1-5,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,2180,0,0
+1687950467191,2573,Post available order,201,Created,SimpleBooksApi - run 1-3,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,2573,0,0
+1687950467211,3297,Post available order,201,Created,SimpleBooksApi - run 1-2,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,3297,0,0
+1687950467519,3056,Get all orders,200,OK,SimpleBooksApi - run 1-4,text,true,,1492,294,10,10,https://simple-books-api.glitch.me/orders,3056,0,0
+1687950468385,2217,Get all orders,200,OK,SimpleBooksApi - run 1-8,text,true,,1492,294,10,10,https://simple-books-api.glitch.me/orders,2217,0,0
+1687950468712,1967,Get all orders,200,OK,SimpleBooksApi - run 1-7,text,true,,1492,294,10,10,https://simple-books-api.glitch.me/orders,1967,0,0
+1687950468712,2271,Post available order,201,Created,SimpleBooksApi - run 1-6,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,2271,0,0
+1687950469007,1992,Get all orders,200,OK,SimpleBooksApi - run 1-10,text,true,,1674,294,10,10,https://simple-books-api.glitch.me/orders,1992,0,0
+1687950469304,1707,Get all orders,200,OK,SimpleBooksApi - run 1-5,text,true,,1674,294,10,10,https://simple-books-api.glitch.me/orders,1707,0,0
+1687950469568,1448,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1448,0,0
+1687950469766,1355,Get all orders,200,OK,SimpleBooksApi - run 1-3,text,true,,1674,294,10,10,https://simple-books-api.glitch.me/orders,1354,0,0
+1687950470511,1065,Get all orders,200,OK,SimpleBooksApi - run 1-2,text,true,,1674,294,10,10,https://simple-books-api.glitch.me/orders,1065,0,0
+1687950470578,1150,Get order gY6X80Sb4oYZwac4-z7rN,200,OK,SimpleBooksApi - run 1-4,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/gY6X80Sb4oYZwac4-z7rN,1150,0,0
+1687950470604,1230,Get order otR5ca2EJFd78ZLGKu8-L,200,OK,SimpleBooksApi - run 1-8,text,true,,395,316,10,10,https://simple-books-api.glitch.me/orders/otR5ca2EJFd78ZLGKu8-L,1230,0,0
+1687950470681,1182,Get order cAahKKcI0_i8_geXSnEQy,200,OK,SimpleBooksApi - run 1-7,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/cAahKKcI0_i8_geXSnEQy,1182,0,0
+1687950470985,927,Get all orders,200,OK,SimpleBooksApi - run 1-6,text,true,,1674,294,10,10,https://simple-books-api.glitch.me/orders,927,0,0
+1687950471001,948,Get order ryijPPMc42VlXhchkzWou,200,OK,SimpleBooksApi - run 1-10,text,true,,395,316,10,10,https://simple-books-api.glitch.me/orders/ryijPPMc42VlXhchkzWou,948,0,0
+1687950471016,995,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,995,0,0
+1687950471013,1005,Get order s08ReE7mF-TASi75ySxj4,200,OK,SimpleBooksApi - run 1-5,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/s08ReE7mF-TASi75ySxj4,1005,0,0
+1687950471123,987,Get order 8oQDP-dfiv4C5VkTBjzZT,200,OK,SimpleBooksApi - run 1-3,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/8oQDP-dfiv4C5VkTBjzZT,987,0,0
+1687950471579,606,Get order PBLW-Ej3X62b8POKQ_8bm,200,OK,SimpleBooksApi - run 1-2,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/PBLW-Ej3X62b8POKQ_8bm,606,0,0
+1687950471730,752,Patch order gY6X80Sb4oYZwac4-z7rN,204,No Content,SimpleBooksApi - run 1-4,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/gY6X80Sb4oYZwac4-z7rN,0,0,0
+1687950471778,707,/status,200,OK,SimpleBooksApi - run 1-9,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,707,0,0
+1687950471855,939,Patch order otR5ca2EJFd78ZLGKu8-L,204,No Content,SimpleBooksApi - run 1-8,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/otR5ca2EJFd78ZLGKu8-L,0,0,0
+1687950471866,1220,Patch order cAahKKcI0_i8_geXSnEQy,204,No Content,SimpleBooksApi - run 1-7,,true,,111,370,10,10,https://simple-books-api.glitch.me/orders/cAahKKcI0_i8_geXSnEQy,0,0,0
+1687950471916,1379,Get order JZ_e3urwI2Do7odv6yKkE,200,OK,SimpleBooksApi - run 1-6,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/JZ_e3urwI2Do7odv6yKkE,1379,0,0
+1687950471952,1723,Patch order ryijPPMc42VlXhchkzWou,204,No Content,SimpleBooksApi - run 1-10,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/ryijPPMc42VlXhchkzWou,0,0,0
+1687950472012,2088,/books/bookId,404,Not Found,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,2088,0,0
+1687950472020,2373,Patch order s08ReE7mF-TASi75ySxj4,204,No Content,SimpleBooksApi - run 1-5,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/s08ReE7mF-TASi75ySxj4,0,0,0
+1687950472113,2573,Patch order 8oQDP-dfiv4C5VkTBjzZT,204,No Content,SimpleBooksApi - run 1-3,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/8oQDP-dfiv4C5VkTBjzZT,0,0,0
+1687950472187,2800,Patch order PBLW-Ej3X62b8POKQ_8bm,204,No Content,SimpleBooksApi - run 1-2,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/PBLW-Ej3X62b8POKQ_8bm,0,0,0
+1687950472485,2819,Delete order gY6X80Sb4oYZwac4-z7rN,204,No Content,SimpleBooksApi - run 1-4,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/gY6X80Sb4oYZwac4-z7rN,0,0,0
+1687950472485,2820,/books,200,OK,SimpleBooksApi - run 1-9,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,2819,0,0
+1687950472796,2810,Delete order otR5ca2EJFd78ZLGKu8-L,204,No Content,SimpleBooksApi - run 1-8,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/otR5ca2EJFd78ZLGKu8-L,0,0,0
+1687950473088,3023,Delete order cAahKKcI0_i8_geXSnEQy,204,No Content,SimpleBooksApi - run 1-7,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/cAahKKcI0_i8_geXSnEQy,0,0,0
+1687950473297,3114,Patch order JZ_e3urwI2Do7odv6yKkE,204,No Content,SimpleBooksApi - run 1-6,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/JZ_e3urwI2Do7odv6yKkE,0,0,0
+1687950473678,3072,Delete order ryijPPMc42VlXhchkzWou,204,No Content,SimpleBooksApi - run 1-10,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/ryijPPMc42VlXhchkzWou,0,0,0
+1687950474102,2691,/books/bookId,404,Not Found,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,2691,0,0
+1687950474413,2685,Delete order s08ReE7mF-TASi75ySxj4,204,No Content,SimpleBooksApi - run 1-5,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/s08ReE7mF-TASi75ySxj4,0,0,0
+1687950474688,2919,Delete order 8oQDP-dfiv4C5VkTBjzZT,204,No Content,SimpleBooksApi - run 1-3,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/8oQDP-dfiv4C5VkTBjzZT,0,0,0
+1687950474989,2893,Delete order PBLW-Ej3X62b8POKQ_8bm,204,No Content,SimpleBooksApi - run 1-2,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/PBLW-Ej3X62b8POKQ_8bm,0,0,0
+1687950475305,2592,/status,200,OK,SimpleBooksApi - run 1-4,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,2592,0,0
+1687950475305,2773,/books/1,200,OK,SimpleBooksApi - run 1-9,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,2773,0,0
+1687950475606,2479,/status,200,OK,SimpleBooksApi - run 1-8,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,2479,0,0
+1687950476111,1974,/status,200,OK,SimpleBooksApi - run 1-7,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1974,0,0
+1687950476413,2078,Delete order JZ_e3urwI2Do7odv6yKkE,204,No Content,SimpleBooksApi - run 1-6,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/JZ_e3urwI2Do7odv6yKkE,0,0,0
+1687950476750,2325,/status,200,OK,SimpleBooksApi - run 1-10,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,2325,0,0
+1687950476795,2328,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,2328,0,0
+1687950477100,2101,/status,200,OK,SimpleBooksApi - run 1-5,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,2101,0,0
+1687950477608,1603,/status,200,OK,SimpleBooksApi - run 1-3,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1603,0,0
+1687950477897,1516,/books,200,OK,SimpleBooksApi - run 1-4,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1516,0,0
+1687950478085,1328,/books,200,OK,SimpleBooksApi - run 1-7,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1328,0,0
+1687950477882,1531,/status,200,OK,SimpleBooksApi - run 1-2,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1531,0,0
+1687950478505,908,/status,200,OK,SimpleBooksApi - run 1-6,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,908,0,0
+1687950478085,1328,/books,200,OK,SimpleBooksApi - run 1-8,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1328,0,0
+1687950478080,1333,/books/1,200,OK,SimpleBooksApi - run 1-9,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,1333,0,0
+1687950479076,400,/books,200,OK,SimpleBooksApi - run 1-10,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,400,0,0
+1687950479123,370,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,370,0,0
+1687950479201,674,/books,200,OK,SimpleBooksApi - run 1-5,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,674,0,0
+1687950479211,664,/books,200,OK,SimpleBooksApi - run 1-3,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,664,0,0
+1687950479413,475,/books/4,200,OK,SimpleBooksApi - run 1-7,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,475,0,0
+1687950479413,481,/books/2,200,OK,SimpleBooksApi - run 1-4,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,481,0,0
+1687950479413,577,/books/3,200,OK,SimpleBooksApi - run 1-8,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,577,0,0
+1687950479415,879,Post available order,201,Created,SimpleBooksApi - run 1-9,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,878,0,0
+1687950479413,889,/books,200,OK,SimpleBooksApi - run 1-2,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,889,0,0
+1687950479413,892,/books,200,OK,SimpleBooksApi - run 1-6,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,892,0,0
+1687950479476,832,/books/5,200,OK,SimpleBooksApi - run 1-10,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,832,0,0
+1687950479493,815,/books/6,200,OK,SimpleBooksApi - run 1-1,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,815,0,0
+1687950479875,504,/books/bookId,404,Not Found,SimpleBooksApi - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,504,0,0
+1687950479875,508,/books/1,200,OK,SimpleBooksApi - run 1-3,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,508,0,0
+1687950479890,493,/books/4,200,OK,SimpleBooksApi - run 1-7,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,493,0,0
+1687950479896,490,/books/2,200,OK,SimpleBooksApi - run 1-4,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,490,0,0
+1687950479992,400,/books/3,200,OK,SimpleBooksApi - run 1-8,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,400,0,0
+1687950480296,587,Get all orders,200,OK,SimpleBooksApi - run 1-9,text,true,,396,294,10,10,https://simple-books-api.glitch.me/orders,587,0,0
+1687950480311,585,/books/5,200,OK,SimpleBooksApi - run 1-10,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,585,0,0
+1687950480302,686,/books/2,200,OK,SimpleBooksApi - run 1-2,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,686,0,0
+1687950480306,686,/books/3,200,OK,SimpleBooksApi - run 1-6,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,686,0,0
+1687950480311,683,/books/6,200,OK,SimpleBooksApi - run 1-1,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,683,0,0
+1687950480387,701,/status,200,OK,SimpleBooksApi - run 1-4,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,701,0,0
+1687950480385,1005,Post available order,201,Created,SimpleBooksApi - run 1-7,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1005,0,0
+1687950480394,1299,Post available order,201,Created,SimpleBooksApi - run 1-8,text,true,,267,351,10,10,https://simple-books-api.glitch.me/orders,1299,0,0
+1687950480382,1313,/books/bookId,404,Not Found,SimpleBooksApi - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,1313,0,0
+1687950480385,1316,/books/1,200,OK,SimpleBooksApi - run 1-3,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,1316,0,0
+1687950480885,1005,Get order jvwV4ApdhGX7wZvfUtZIR,200,OK,SimpleBooksApi - run 1-9,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/jvwV4ApdhGX7wZvfUtZIR,1005,0,0
+1687950480899,1391,Post available order,201,Created,SimpleBooksApi - run 1-10,text,true,,267,350,10,10,https://simple-books-api.glitch.me/orders,1391,0,0
+1687950480996,1497,Post available order,201,Created,SimpleBooksApi - run 1-1,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1497,0,0
+1687950480990,1517,/books/2,200,OK,SimpleBooksApi - run 1-2,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,1517,0,0
+1687950481088,1488,/books,200,OK,SimpleBooksApi - run 1-4,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1487,0,0
+1687950481392,1184,Get all orders,200,OK,SimpleBooksApi - run 1-7,text,true,,1128,294,10,10,https://simple-books-api.glitch.me/orders,1183,0,0
+1687950480995,1581,/books/3,200,OK,SimpleBooksApi - run 1-6,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,1580,0,0
+1687950481695,1295,Get all orders,200,OK,SimpleBooksApi - run 1-8,text,true,,1128,294,10,10,https://simple-books-api.glitch.me/orders,1295,0,0
+1687950481697,1298,/status,200,OK,SimpleBooksApi - run 1-5,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1298,0,0
+1687950481703,1782,Post available order,201,Created,SimpleBooksApi - run 1-3,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1782,0,0
+1687950481893,1805,Patch order jvwV4ApdhGX7wZvfUtZIR,204,No Content,SimpleBooksApi - run 1-9,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/jvwV4ApdhGX7wZvfUtZIR,0,0,0
+1687950482292,1487,Get all orders,200,OK,SimpleBooksApi - run 1-10,text,true,,1312,294,10,10,https://simple-books-api.glitch.me/orders,1487,0,0
+1687950482496,1304,Get all orders,200,OK,SimpleBooksApi - run 1-1,text,true,,1312,294,10,10,https://simple-books-api.glitch.me/orders,1304,0,0
+1687950482551,1251,/status,200,OK,SimpleBooksApi - run 1-2,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1251,0,0
+1687950482576,1299,/books/4,200,OK,SimpleBooksApi - run 1-4,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,1299,0,0
+1687950482579,1302,Get order GbaZJNshYpWrOeglVj6Sc,200,OK,SimpleBooksApi - run 1-7,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/GbaZJNshYpWrOeglVj6Sc,1302,0,0
+1687950483487,725,Get all orders,200,OK,SimpleBooksApi - run 1-3,text,true,,1494,294,10,10,https://simple-books-api.glitch.me/orders,725,0,0
+1687950482995,1217,/books,200,OK,SimpleBooksApi - run 1-5,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1217,0,0
+1687950482992,1220,Get order dWUnyXCakJZbReohauIVS,200,OK,SimpleBooksApi - run 1-8,text,true,,396,316,10,10,https://simple-books-api.glitch.me/orders/dWUnyXCakJZbReohauIVS,1220,0,0
+1687950482579,1633,Post available order,201,Created,SimpleBooksApi - run 1-6,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1633,0,0
+1687950483700,1305,Delete order jvwV4ApdhGX7wZvfUtZIR,204,No Content,SimpleBooksApi - run 1-9,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/jvwV4ApdhGX7wZvfUtZIR,0,0,0
+1687950483781,1233,Get order t_5KysO-h_9_fAYONQab2,200,OK,SimpleBooksApi - run 1-10,text,true,,395,316,10,10,https://simple-books-api.glitch.me/orders/t_5KysO-h_9_fAYONQab2,1233,0,0
+1687950483803,1293,Get order I7Ef-CMklUMETMx-VeDva,200,OK,SimpleBooksApi - run 1-1,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/I7Ef-CMklUMETMx-VeDva,1293,0,0
+1687950483803,1293,/books,200,OK,SimpleBooksApi - run 1-2,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1293,0,0
+1687950483877,1219,/books/4,200,OK,SimpleBooksApi - run 1-4,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,1219,0,0
+1687950483884,1516,Patch order GbaZJNshYpWrOeglVj6Sc,204,No Content,SimpleBooksApi - run 1-7,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/GbaZJNshYpWrOeglVj6Sc,0,0,0
+1687950484215,1581,Patch order dWUnyXCakJZbReohauIVS,204,No Content,SimpleBooksApi - run 1-8,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/dWUnyXCakJZbReohauIVS,0,0,0
+1687950484212,1587,/books/5,200,OK,SimpleBooksApi - run 1-5,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,1587,0,0
+1687950484215,1593,Get all orders,200,OK,SimpleBooksApi - run 1-6,text,true,,1309,294,10,10,https://simple-books-api.glitch.me/orders,1593,0,0
+1687950484215,1662,Get order DZ00KnRwwwGm0SdkSlaEg,200,OK,SimpleBooksApi - run 1-3,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/DZ00KnRwwwGm0SdkSlaEg,1662,0,0
+1687950485006,874,/status,200,OK,SimpleBooksApi - run 1-9,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,874,0,0
+1687950485016,1303,Patch order t_5KysO-h_9_fAYONQab2,204,No Content,SimpleBooksApi - run 1-10,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/t_5KysO-h_9_fAYONQab2,0,0,0
+1687950485098,1507,Post available order,201,Created,SimpleBooksApi - run 1-4,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1507,0,0
+1687950485098,1812,Patch order I7Ef-CMklUMETMx-VeDva,204,No Content,SimpleBooksApi - run 1-1,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/I7Ef-CMklUMETMx-VeDva,0,0,0
+1687950485096,1817,/books/6,200,OK,SimpleBooksApi - run 1-2,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,1817,0,0
+1687950485402,2312,Delete order GbaZJNshYpWrOeglVj6Sc,204,No Content,SimpleBooksApi - run 1-7,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/GbaZJNshYpWrOeglVj6Sc,0,0,0
+1687950485798,2415,Delete order dWUnyXCakJZbReohauIVS,204,No Content,SimpleBooksApi - run 1-8,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/dWUnyXCakJZbReohauIVS,0,0,0
+1687950485810,2470,Get order oxt0pGa8nH8iyCaXzC5dV,200,OK,SimpleBooksApi - run 1-6,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/oxt0pGa8nH8iyCaXzC5dV,2470,0,0
+1687950485801,2484,/books/5,200,OK,SimpleBooksApi - run 1-5,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,2484,0,0
+1687950485880,2408,/books,200,OK,SimpleBooksApi - run 1-9,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,2408,0,0
+1687950485880,2716,Patch order DZ00KnRwwwGm0SdkSlaEg,204,No Content,SimpleBooksApi - run 1-3,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/DZ00KnRwwwGm0SdkSlaEg,0,0,0
+1687950486322,2690,Delete order t_5KysO-h_9_fAYONQab2,204,No Content,SimpleBooksApi - run 1-10,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/t_5KysO-h_9_fAYONQab2,0,0,0
+1687950486608,2474,Get all orders,200,OK,SimpleBooksApi - run 1-4,text,true,,944,294,10,10,https://simple-books-api.glitch.me/orders,2474,0,0
+1687950486912,2502,Delete order I7Ef-CMklUMETMx-VeDva,204,No Content,SimpleBooksApi - run 1-1,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/I7Ef-CMklUMETMx-VeDva,0,0,0
+1687950488214,1240,/status,200,OK,SimpleBooksApi - run 1-8,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1240,0,0
+1687950488289,1165,/books/bookId,404,Not Found,SimpleBooksApi - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,1165,0,0
+1687950487715,1739,/status,200,OK,SimpleBooksApi - run 1-7,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1739,0,0
+1687950486915,2539,/books/6,200,OK,SimpleBooksApi - run 1-2,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,2539,0,0
+1687950488283,1425,Patch order oxt0pGa8nH8iyCaXzC5dV,204,No Content,SimpleBooksApi - run 1-6,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/oxt0pGa8nH8iyCaXzC5dV,0,0,0
+1687950488288,1771,Post available order,201,Created,SimpleBooksApi - run 1-5,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1771,0,0
+1687950488599,1770,Delete order DZ00KnRwwwGm0SdkSlaEg,204,No Content,SimpleBooksApi - run 1-3,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/DZ00KnRwwwGm0SdkSlaEg,0,0,0
+1687950489012,1691,/status,200,OK,SimpleBooksApi - run 1-10,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1691,0,0
+1687950489084,1802,Get order z23hmjQQ8QHmZLFxTY3ip,200,OK,SimpleBooksApi - run 1-4,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/z23hmjQQ8QHmZLFxTY3ip,1802,0,0
+1687950489415,1475,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1475,0,0
+1687950489454,1532,/books,200,OK,SimpleBooksApi - run 1-7,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1532,0,0
+1687950489454,1621,/books,200,OK,SimpleBooksApi - run 1-8,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1621,0,0
+1687950489457,1618,/books/bookId,404,Not Found,SimpleBooksApi - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,1618,0,0
+1687950489456,2045,Post available order,201,Created,SimpleBooksApi - run 1-2,text,true,,267,350,10,10,https://simple-books-api.glitch.me/orders,2045,0,0
+1687950489710,2181,Delete order oxt0pGa8nH8iyCaXzC5dV,204,No Content,SimpleBooksApi - run 1-6,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/oxt0pGa8nH8iyCaXzC5dV,0,0,0
+1687950490061,1842,Get all orders,200,OK,SimpleBooksApi - run 1-5,text,true,,762,294,10,10,https://simple-books-api.glitch.me/orders,1842,0,0
+1687950490370,1618,/status,200,OK,SimpleBooksApi - run 1-3,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1618,0,0
+1687950490703,1388,/books,200,OK,SimpleBooksApi - run 1-10,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1388,0,0
+1687950490887,1591,Patch order z23hmjQQ8QHmZLFxTY3ip,204,No Content,SimpleBooksApi - run 1-4,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/z23hmjQQ8QHmZLFxTY3ip,0,0,0
+1687950490891,1591,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1591,0,0
+1687950491075,1413,/books/2,200,OK,SimpleBooksApi - run 1-8,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,1413,0,0
+1687950491077,1411,/status,200,OK,SimpleBooksApi - run 1-9,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1411,0,0
+1687950491504,994,Get all orders,200,OK,SimpleBooksApi - run 1-2,text,true,,763,294,10,10,https://simple-books-api.glitch.me/orders,994,0,0
+1687950490987,1518,/books/1,200,OK,SimpleBooksApi - run 1-7,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,1518,0,0
+1687950491892,915,/status,200,OK,SimpleBooksApi - run 1-6,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,915,0,0
+1687950491906,975,Get order 9emo5wRysyzDMTIpwpN7k,200,OK,SimpleBooksApi - run 1-5,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/9emo5wRysyzDMTIpwpN7k,975,0,0
+1687950491988,893,/books,200,OK,SimpleBooksApi - run 1-3,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,893,0,0
+1687950492092,792,/books/3,200,OK,SimpleBooksApi - run 1-10,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,792,0,0
+1687950492480,841,Delete order z23hmjQQ8QHmZLFxTY3ip,204,No Content,SimpleBooksApi - run 1-4,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/z23hmjQQ8QHmZLFxTY3ip,0,0,0
+1687950492488,887,/books,200,OK,SimpleBooksApi - run 1-9,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,887,0,0
+1687950492490,887,/books/2,200,OK,SimpleBooksApi - run 1-8,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,887,0,0
+1687950492482,907,/books/4,200,OK,SimpleBooksApi - run 1-1,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,907,0,0
+1687950492507,892,/books/1,200,OK,SimpleBooksApi - run 1-7,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,892,0,0
+1687950492500,908,Get order QCsn9JY5ewaw029QHvwjR,200,OK,SimpleBooksApi - run 1-2,text,true,,395,316,10,10,https://simple-books-api.glitch.me/orders/QCsn9JY5ewaw029QHvwjR,908,0,0
+1687950492826,586,/books,200,OK,SimpleBooksApi - run 1-6,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,586,0,0
+1687950492886,708,/books/3,200,OK,SimpleBooksApi - run 1-10,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,708,0,0
+1687950492881,1150,/books/5,200,OK,SimpleBooksApi - run 1-3,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,1150,0,0
+1687950493375,656,/books/6,200,OK,SimpleBooksApi - run 1-9,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,656,0,0
+1687950492882,1149,Patch order 9emo5wRysyzDMTIpwpN7k,204,No Content,SimpleBooksApi - run 1-5,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/9emo5wRysyzDMTIpwpN7k,0,0,0
+1687950493379,652,/status,200,OK,SimpleBooksApi - run 1-8,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,652,0,0
+1687950493341,690,/status,200,OK,SimpleBooksApi - run 1-4,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,690,0,0
+1687950493391,640,/books/4,200,OK,SimpleBooksApi - run 1-1,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,640,0,0
+1687950493402,896,Post available order,201,Created,SimpleBooksApi - run 1-7,text,true,,267,350,10,10,https://simple-books-api.glitch.me/orders,896,0,0
+1687950493410,1213,Patch order QCsn9JY5ewaw029QHvwjR,204,No Content,SimpleBooksApi - run 1-2,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/QCsn9JY5ewaw029QHvwjR,0,0,0
+1687950493412,1211,/books/bookId,404,Not Found,SimpleBooksApi - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,1211,0,0
+1687950493597,1779,Post available order,201,Created,SimpleBooksApi - run 1-10,text,true,,267,350,10,10,https://simple-books-api.glitch.me/orders,1779,0,0
+1687950494032,1355,/books,200,OK,SimpleBooksApi - run 1-4,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1354,0,0
+1687950494032,1357,/books,200,OK,SimpleBooksApi - run 1-8,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1357,0,0
+1687950494034,1642,Post available order,201,Created,SimpleBooksApi - run 1-1,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1642,0,0
+1687950494034,1644,/books/6,200,OK,SimpleBooksApi - run 1-9,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,1644,0,0
+1687950494034,1972,Delete order 9emo5wRysyzDMTIpwpN7k,204,No Content,SimpleBooksApi - run 1-5,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/9emo5wRysyzDMTIpwpN7k,0,0,0
+1687950494034,1977,/books/5,200,OK,SimpleBooksApi - run 1-3,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,1977,0,0
+1687950494300,1789,Get all orders,200,OK,SimpleBooksApi - run 1-7,text,true,,946,294,10,10,https://simple-books-api.glitch.me/orders,1789,0,0
+1687950494626,1777,/books/bookId,404,Not Found,SimpleBooksApi - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,1777,0,0
+1687950494625,1776,Delete order QCsn9JY5ewaw029QHvwjR,204,No Content,SimpleBooksApi - run 1-2,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/QCsn9JY5ewaw029QHvwjR,0,0,0
+1687950495379,1202,Get all orders,200,OK,SimpleBooksApi - run 1-10,text,true,,763,294,10,10,https://simple-books-api.glitch.me/orders,1202,0,0
+1687950495390,1203,/books/2,200,OK,SimpleBooksApi - run 1-8,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,1203,0,0
+1687950495387,1209,/books/1,200,OK,SimpleBooksApi - run 1-4,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,1209,0,0
+1687950495679,926,Get all orders,200,OK,SimpleBooksApi - run 1-1,text,true,,763,294,10,10,https://simple-books-api.glitch.me/orders,926,0,0
+1687950495680,1335,Post available order,201,Created,SimpleBooksApi - run 1-9,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1335,0,0
+1687950496007,1283,/status,200,OK,SimpleBooksApi - run 1-5,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1283,0,0
+1687950496014,1579,Post available order,201,Created,SimpleBooksApi - run 1-3,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1579,0,0
+1687950496090,1629,Get order 8ERsHC7U3B64xyYBh1nXg,200,OK,SimpleBooksApi - run 1-7,text,true,,395,316,10,10,https://simple-books-api.glitch.me/orders/8ERsHC7U3B64xyYBh1nXg,1629,0,0
+1687950496421,1354,/status,200,OK,SimpleBooksApi - run 1-2,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1354,0,0
+1687950496422,1356,/status,200,OK,SimpleBooksApi - run 1-6,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1356,0,0
+1687950496584,1301,Get order jcE8NxqDIO5wassVZ6ITm,200,OK,SimpleBooksApi - run 1-10,text,true,,395,316,10,10,https://simple-books-api.glitch.me/orders/jcE8NxqDIO5wassVZ6ITm,1301,0,0
+1687950496595,1303,/books/2,200,OK,SimpleBooksApi - run 1-8,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,1303,0,0
+1687950496598,1392,/books/1,200,OK,SimpleBooksApi - run 1-4,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,1392,0,0
+1687950496607,1486,Get order TtVb2LvrCKvHvDJ8MC3l2,200,OK,SimpleBooksApi - run 1-1,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/TtVb2LvrCKvHvDJ8MC3l2,1486,0,0
+1687950497017,1176,Get all orders,200,OK,SimpleBooksApi - run 1-9,text,true,,1127,294,10,10,https://simple-books-api.glitch.me/orders,1176,0,0
+1687950497290,1012,/books,200,OK,SimpleBooksApi - run 1-5,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1012,0,0
+1687950497594,797,Get all orders,200,OK,SimpleBooksApi - run 1-3,text,true,,1127,294,10,10,https://simple-books-api.glitch.me/orders,797,0,0
+1687950497721,963,Patch order 8ERsHC7U3B64xyYBh1nXg,204,No Content,SimpleBooksApi - run 1-7,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/8ERsHC7U3B64xyYBh1nXg,0,0,0
+1687950497775,909,/books,200,OK,SimpleBooksApi - run 1-2,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,909,0,0
+1687950497778,911,/books,200,OK,SimpleBooksApi - run 1-6,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,911,0,0
+1687950497887,1103,Patch order jcE8NxqDIO5wassVZ6ITm,204,No Content,SimpleBooksApi - run 1-10,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/jcE8NxqDIO5wassVZ6ITm,0,0,0
+1687950497899,1094,/status,200,OK,SimpleBooksApi - run 1-8,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1094,0,0
+1687950497992,1792,Post available order,201,Created,SimpleBooksApi - run 1-4,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1792,0,0
+1687950498095,1913,Patch order TtVb2LvrCKvHvDJ8MC3l2,204,No Content,SimpleBooksApi - run 1-1,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/TtVb2LvrCKvHvDJ8MC3l2,0,0,0
+1687950498195,1893,Get order m4HMQN4hB8s1JcrWVqVLi,200,OK,SimpleBooksApi - run 1-9,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/m4HMQN4hB8s1JcrWVqVLi,1893,0,0
+1687950498302,1789,/books/3,200,OK,SimpleBooksApi - run 1-5,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,1789,0,0
+1687950498393,1708,Get order beVk8A_EAQFHczP86w0gk,200,OK,SimpleBooksApi - run 1-3,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/beVk8A_EAQFHczP86w0gk,1708,0,0
+1687950498686,1715,Delete order 8ERsHC7U3B64xyYBh1nXg,204,No Content,SimpleBooksApi - run 1-7,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/8ERsHC7U3B64xyYBh1nXg,0,0,0
+1687950498685,1718,/books/4,200,OK,SimpleBooksApi - run 1-2,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,1718,0,0
+1687950498690,1789,/books/5,200,OK,SimpleBooksApi - run 1-6,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,1789,0,0
+1687950498992,1795,Delete order jcE8NxqDIO5wassVZ6ITm,204,No Content,SimpleBooksApi - run 1-10,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/jcE8NxqDIO5wassVZ6ITm,0,0,0
+1687950498993,1805,/books,200,OK,SimpleBooksApi - run 1-8,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1805,0,0
+1687950499786,1015,Get all orders,200,OK,SimpleBooksApi - run 1-4,text,true,,943,294,10,10,https://simple-books-api.glitch.me/orders,1015,0,0
+1687950500019,1287,Delete order TtVb2LvrCKvHvDJ8MC3l2,204,No Content,SimpleBooksApi - run 1-1,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/TtVb2LvrCKvHvDJ8MC3l2,0,0,0
+1687950500090,1704,Patch order m4HMQN4hB8s1JcrWVqVLi,204,No Content,SimpleBooksApi - run 1-9,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/m4HMQN4hB8s1JcrWVqVLi,0,0,0
+1687950500094,1701,/books/3,200,OK,SimpleBooksApi - run 1-5,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,1701,0,0
+1687950500103,1986,Patch order beVk8A_EAQFHczP86w0gk,204,No Content,SimpleBooksApi - run 1-3,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/beVk8A_EAQFHczP86w0gk,0,0,0
+1687950500405,2074,/books/4,200,OK,SimpleBooksApi - run 1-2,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,2074,0,0
+1687950500482,1997,/books/5,200,OK,SimpleBooksApi - run 1-6,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,1997,0,0
+1687950500401,2092,/status,200,OK,SimpleBooksApi - run 1-7,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,2092,0,0
+1687950500788,1798,/status,200,OK,SimpleBooksApi - run 1-10,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1798,0,0
+1687950500798,1790,/books/6,200,OK,SimpleBooksApi - run 1-8,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,1790,0,0
+1687950500803,1793,Get order hFb4vCDndA9BXhA4L--zi,200,OK,SimpleBooksApi - run 1-4,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/hFb4vCDndA9BXhA4L--zi,1793,0,0
+1687950501306,1374,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1374,0,0
+1687950501797,1099,Delete order m4HMQN4hB8s1JcrWVqVLi,204,No Content,SimpleBooksApi - run 1-9,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/m4HMQN4hB8s1JcrWVqVLi,0,0,0
+1687950501797,1399,Post available order,201,Created,SimpleBooksApi - run 1-5,text,true,,267,350,10,10,https://simple-books-api.glitch.me/orders,1399,0,0
+1687950502092,1397,Delete order beVk8A_EAQFHczP86w0gk,204,No Content,SimpleBooksApi - run 1-3,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/beVk8A_EAQFHczP86w0gk,0,0,0
+1687950502493,1097,/books,200,OK,SimpleBooksApi - run 1-7,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1097,0,0
+1687950502482,1410,Post available order,201,Created,SimpleBooksApi - run 1-2,text,true,,267,350,10,10,https://simple-books-api.glitch.me/orders,1410,0,0
+1687950502482,1615,Post available order,201,Created,SimpleBooksApi - run 1-6,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1615,0,0
+1687950502590,1507,/books/6,200,OK,SimpleBooksApi - run 1-8,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,1507,0,0
+1687950502586,1511,/books,200,OK,SimpleBooksApi - run 1-10,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1511,0,0
+1687950502896,1813,/status,200,OK,SimpleBooksApi - run 1-9,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1813,0,0
+1687950502680,2029,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,2029,0,0
+1687950502598,2111,Patch order hFb4vCDndA9BXhA4L--zi,204,No Content,SimpleBooksApi - run 1-4,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/hFb4vCDndA9BXhA4L--zi,0,0,0
+1687950503198,1690,Get all orders,200,OK,SimpleBooksApi - run 1-5,text,true,,946,294,10,10,https://simple-books-api.glitch.me/orders,1690,0,0
+1687950503489,1800,/status,200,OK,SimpleBooksApi - run 1-3,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1800,0,0
+1687950503894,1491,Get all orders,200,OK,SimpleBooksApi - run 1-2,text,true,,946,294,10,10,https://simple-books-api.glitch.me/orders,1491,0,0
+1687950504123,1264,/books/1,200,OK,SimpleBooksApi - run 1-10,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,1264,0,0
+1687950503607,1780,/books/bookId,404,Not Found,SimpleBooksApi - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,1780,0,0
+1687950504125,1475,Post available order,201,Created,SimpleBooksApi - run 1-8,text,true,,267,350,10,10,https://simple-books-api.glitch.me/orders,1475,0,0
+1687950504125,1559,Get all orders,200,OK,SimpleBooksApi - run 1-6,text,true,,1129,294,10,10,https://simple-books-api.glitch.me/orders,1559,0,0
+1687950504709,982,/books,200,OK,SimpleBooksApi - run 1-9,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,982,0,0
+1687950504711,1297,Delete order hFb4vCDndA9BXhA4L--zi,204,No Content,SimpleBooksApi - run 1-4,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/hFb4vCDndA9BXhA4L--zi,0,0,0
+1687950504709,1303,/books/2,200,OK,SimpleBooksApi - run 1-1,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,1303,0,0
+1687950504889,1201,Get order 1wpH8ww7Q9gloNPrYHbXC,200,OK,SimpleBooksApi - run 1-5,text,true,,395,316,10,10,https://simple-books-api.glitch.me/orders/1wpH8ww7Q9gloNPrYHbXC,1201,0,0
+1687950505290,802,/books,200,OK,SimpleBooksApi - run 1-3,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,802,0,0
+1687950505389,706,/books/1,200,OK,SimpleBooksApi - run 1-10,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,706,0,0
+1687950505390,705,/books/bookId,404,Not Found,SimpleBooksApi - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,705,0,0
+1687950505388,793,Get order UcY5goEHGu9_jY7RIcFd0,200,OK,SimpleBooksApi - run 1-2,text,true,,395,316,10,10,https://simple-books-api.glitch.me/orders/UcY5goEHGu9_jY7RIcFd0,793,0,0
+1687950505602,588,Get all orders,200,OK,SimpleBooksApi - run 1-8,text,true,,946,294,10,10,https://simple-books-api.glitch.me/orders,588,0,0
+1687950505691,501,/books/3,200,OK,SimpleBooksApi - run 1-9,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,501,0,0
+1687950505685,515,Get order xFxcE-qM9uNI7i7KRLRmQ,200,OK,SimpleBooksApi - run 1-6,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/xFxcE-qM9uNI7i7KRLRmQ,515,0,0
+1687950506008,486,/status,200,OK,SimpleBooksApi - run 1-4,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,486,0,0
+1687950506013,566,/books/2,200,OK,SimpleBooksApi - run 1-1,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,566,0,0
+1687950506098,928,Post available order,201,Created,SimpleBooksApi - run 1-10,text,true,,267,350,10,10,https://simple-books-api.glitch.me/orders,928,0,0
+1687950506092,1218,Patch order 1wpH8ww7Q9gloNPrYHbXC,204,No Content,SimpleBooksApi - run 1-5,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/1wpH8ww7Q9gloNPrYHbXC,0,0,0
+1687950506092,1222,/books/4,200,OK,SimpleBooksApi - run 1-3,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,1222,0,0
+1687950506098,1280,/status,200,OK,SimpleBooksApi - run 1-7,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1280,0,0
+1687950506195,1197,/books/3,200,OK,SimpleBooksApi - run 1-9,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,1197,0,0
+1687950506192,1216,Get order J-sNf93SQKUeQiy6xG1mM,200,OK,SimpleBooksApi - run 1-8,text,true,,395,316,10,10,https://simple-books-api.glitch.me/orders/J-sNf93SQKUeQiy6xG1mM,1216,0,0
+1687950506191,1499,Patch order UcY5goEHGu9_jY7RIcFd0,204,No Content,SimpleBooksApi - run 1-2,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/UcY5goEHGu9_jY7RIcFd0,0,0,0
+1687950506202,1787,Patch order xFxcE-qM9uNI7i7KRLRmQ,204,No Content,SimpleBooksApi - run 1-6,,true,,111,369,10,10,https://simple-books-api.glitch.me/orders/xFxcE-qM9uNI7i7KRLRmQ,0,0,0
+1687950506495,1599,/books,200,OK,SimpleBooksApi - run 1-4,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1599,0,0
+1687950507029,1165,Get all orders,200,OK,SimpleBooksApi - run 1-10,text,true,,1129,294,10,10,https://simple-books-api.glitch.me/orders,1165,0,0
+1687950506581,1596,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1596,0,0
+1687950507316,1365,/books/4,200,OK,SimpleBooksApi - run 1-3,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/4,1365,0,0
+1687950507378,1306,/books,200,OK,SimpleBooksApi - run 1-7,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1306,0,0
+1687950507312,1368,Delete order 1wpH8ww7Q9gloNPrYHbXC,204,No Content,SimpleBooksApi - run 1-5,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/1wpH8ww7Q9gloNPrYHbXC,0,0,0
+1687950507394,1508,Post available order,201,Created,SimpleBooksApi - run 1-9,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1508,0,0
+1687950507410,1703,Patch order J-sNf93SQKUeQiy6xG1mM,204,No Content,SimpleBooksApi - run 1-8,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/J-sNf93SQKUeQiy6xG1mM,0,0,0
+1687950507696,1799,Delete order UcY5goEHGu9_jY7RIcFd0,204,No Content,SimpleBooksApi - run 1-2,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/UcY5goEHGu9_jY7RIcFd0,0,0,0
+1687950507991,2131,Delete order xFxcE-qM9uNI7i7KRLRmQ,204,No Content,SimpleBooksApi - run 1-6,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/xFxcE-qM9uNI7i7KRLRmQ,0,0,0
+1687950508094,2036,/books/5,200,OK,SimpleBooksApi - run 1-4,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,2036,0,0
+1687950508195,1935,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1935,0,0
+1687950508196,1949,Get order jVB56wLpS986U8LeSg2F6,200,OK,SimpleBooksApi - run 1-10,text,true,,395,316,10,10,https://simple-books-api.glitch.me/orders/jVB56wLpS986U8LeSg2F6,1949,0,0
+1687950508710,1491,/books/6,200,OK,SimpleBooksApi - run 1-7,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,1491,0,0
+1687950508710,1693,/status,200,OK,SimpleBooksApi - run 1-5,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1693,0,0
+1687950508712,1691,Post available order,201,Created,SimpleBooksApi - run 1-3,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1691,0,0
+1687950508904,1502,Get all orders,200,OK,SimpleBooksApi - run 1-9,text,true,,944,294,10,10,https://simple-books-api.glitch.me/orders,1502,0,0
+1687950509115,1585,Delete order J-sNf93SQKUeQiy6xG1mM,204,No Content,SimpleBooksApi - run 1-8,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/J-sNf93SQKUeQiy6xG1mM,0,0,0
+1687950509496,1201,/status,200,OK,SimpleBooksApi - run 1-2,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1201,0,0
+1687950510131,646,/books/bookId,404,Not Found,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,646,0,0
+1687950510122,663,/status,200,OK,SimpleBooksApi - run 1-6,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,663,0,0
+1687950510132,658,/books/5,200,OK,SimpleBooksApi - run 1-4,text,true,,333,295,10,10,https://simple-books-api.glitch.me/books/5,658,0,0
+1687950510147,969,Patch order jVB56wLpS986U8LeSg2F6,204,No Content,SimpleBooksApi - run 1-10,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/jVB56wLpS986U8LeSg2F6,0,0,0
+1687950510241,877,/books/6,200,OK,SimpleBooksApi - run 1-7,text,true,,343,295,10,10,https://simple-books-api.glitch.me/books/6,877,0,0
+1687950510409,776,Get order S2UymTJeeRWUcwQZGdo_H,200,OK,SimpleBooksApi - run 1-9,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/S2UymTJeeRWUcwQZGdo_H,776,0,0
+1687950510403,784,/books,200,OK,SimpleBooksApi - run 1-5,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,784,0,0
+1687950510405,788,Get all orders,200,OK,SimpleBooksApi - run 1-3,text,true,,761,294,10,10,https://simple-books-api.glitch.me/orders,788,0,0
+1687950510749,1034,/status,200,OK,SimpleBooksApi - run 1-8,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1034,0,0
+1687950510749,1130,/books,200,OK,SimpleBooksApi - run 1-2,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1130,0,0
+1687950510780,1101,/books/bookId,404,Not Found,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/	",250,300,10,10,https://simple-books-api.glitch.me/books/bookId,1101,0,0
+1687950510792,1306,Post available order,201,Created,SimpleBooksApi - run 1-4,text,true,,267,351,10,10,https://simple-books-api.glitch.me/orders,1306,0,0
+1687950510786,1315,/books,200,OK,SimpleBooksApi - run 1-6,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1315,0,0
+1687950511120,1271,Post available order,201,Created,SimpleBooksApi - run 1-7,text,true,,267,349,10,10,https://simple-books-api.glitch.me/orders,1271,0,0
+1687950511119,1583,Delete order jVB56wLpS986U8LeSg2F6,204,No Content,SimpleBooksApi - run 1-10,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/jVB56wLpS986U8LeSg2F6,0,0,0
+1687950511186,1816,Patch order S2UymTJeeRWUcwQZGdo_H,204,No Content,SimpleBooksApi - run 1-9,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/S2UymTJeeRWUcwQZGdo_H,0,0,0
+1687950511187,1888,/books/1,200,OK,SimpleBooksApi - run 1-5,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,1888,0,0
+1687950511195,1904,Get order Xk64QvQuE5PpYFfSXqr_-,200,OK,SimpleBooksApi - run 1-3,text,true,,394,316,10,10,https://simple-books-api.glitch.me/orders/Xk64QvQuE5PpYFfSXqr_-,1904,0,0
+1687950511783,1708,/books,200,OK,SimpleBooksApi - run 1-8,text,true,,631,293,10,10,https://simple-books-api.glitch.me/books,1708,0,0
+1687950511879,1615,/books/2,200,OK,SimpleBooksApi - run 1-2,text,true,,338,295,10,10,https://simple-books-api.glitch.me/books/2,1615,0,0
+1687950511884,1612,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,1612,0,0
+1687950512101,1497,/books/3,200,OK,SimpleBooksApi - run 1-6,text,true,,340,295,10,10,https://simple-books-api.glitch.me/books/3,1497,0,0
+1687950512101,1497,Get all orders,200,OK,SimpleBooksApi - run 1-4,text,true,,945,294,10,10,https://simple-books-api.glitch.me/orders,1496,0,0
+1687950512393,1208,Get all orders,200,OK,SimpleBooksApi - run 1-7,text,true,,945,294,10,10,https://simple-books-api.glitch.me/orders,1208,0,0
+1687950512703,898,/status,200,OK,SimpleBooksApi - run 1-10,text,true,,226,294,10,10,https://simple-books-api.glitch.me/status,898,0,0
+1687950513077,927,/books/1,200,OK,SimpleBooksApi - run 1-5,text,true,,374,295,10,10,https://simple-books-api.glitch.me/books/1,927,0,0
+1687950513004,1002,Delete order S2UymTJeeRWUcwQZGdo_H,204,No Content,SimpleBooksApi - run 1-9,,true,,111,338,10,10,https://simple-books-api.glitch.me/orders/S2UymTJeeRWUcwQZGdo_H,0,0,0
+1687950513100,1195,Patch order Xk64QvQuE5PpYFfSXqr_-,204,No Content,SimpleBooksApi - run 1-3,,true,,111,368,10,10,https://simple-books-api.glitch.me/orders/Xk64QvQuE5PpYFfSXqr_-,0,0,0
+1687950513496,1301,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,9,9,https://simple-books-api.glitch.me/books,1301,0,0
+1687950513496,1297,/books/2,200,OK,SimpleBooksApi - run 1-2,text,true,,338,295,9,9,https://simple-books-api.glitch.me/books/2,1297,0,0
+1687950513491,1297,/books/4,200,OK,SimpleBooksApi - run 1-8,text,true,,338,295,9,9,https://simple-books-api.glitch.me/books/4,1296,0,0
+1687950513600,1284,Get order bVvvJ-T7_YLKDmZ6oxX6j,200,OK,SimpleBooksApi - run 1-4,text,true,,396,316,6,6,https://simple-books-api.glitch.me/orders/bVvvJ-T7_YLKDmZ6oxX6j,1284,0,0
+1687950513602,1288,/books,200,OK,SimpleBooksApi - run 1-10,text,true,,631,293,5,5,https://simple-books-api.glitch.me/books,1288,0,0
+1687950513603,1393,Get order HTH-9zJCN8PgEiD2GyQYs,200,OK,SimpleBooksApi - run 1-7,text,true,,394,316,4,4,https://simple-books-api.glitch.me/orders/HTH-9zJCN8PgEiD2GyQYs,1393,0,0
+1687950514006,990,/status,200,OK,SimpleBooksApi - run 1-9,text,true,,226,294,4,4,https://simple-books-api.glitch.me/status,990,0,0
+1687950513600,1396,/books/3,200,OK,SimpleBooksApi - run 1-6,text,true,,340,295,4,4,https://simple-books-api.glitch.me/books/3,1396,0,0
+1687950514006,1211,Post available order,201,Created,SimpleBooksApi - run 1-5,text,true,,267,350,1,1,https://simple-books-api.glitch.me/orders,1211,0,0

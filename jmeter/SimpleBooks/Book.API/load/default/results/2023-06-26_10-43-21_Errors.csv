@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687769001337,621,/api-clients,422,Unprocessable Entity,SimpleBooksApi - setUp 1-1,text,false,,339,275,1,1,https://simple-books-api.glitch.me/api-clients,621,0,404
+1687769003009,130,/orders,401,Unauthorized,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[4]]]01
+
+****** comparison: [[[2]]]01
+
+/	Test failed: code expected something using /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[204]]]
+
+/	",255,298,1,1,https://simple-books-api.glitch.me/orders,130,0,0

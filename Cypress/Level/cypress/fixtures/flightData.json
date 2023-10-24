@@ -1,8 +1,9 @@
 {
   "origin": "BCN",
   "destination": "EZE",
-  "month": "agosto",
+  "month": "8",
   "adults": "2",
   "childs": "0",
-  "infants": "1"
+  "infants": "1",
+  "fare": "Premium"
 }

@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687867746880,1256,Get Home,200,OK,FlyLevel - run 1-1,text,true,,170164,1277,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,959,0,244
+1687867748136,3412,GET Flight,200,OK,FlyLevel - run 1-1,text,true,,307163,2859,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select,78,0,0
+1687867748136,78,GET Flight-0,302,Found,FlyLevel - run 1-1,text,true,,1439,1477,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/InternalSelect?k=BCNEZE&o1=BCN&d1=EZE&ADT=1&CHD=0&inl=0&mm=false&dd1=2023-07-10&dd2=2023-07-15&r=true,78,0,0
+1687867748214,3334,GET Flight-1,200,OK,FlyLevel - run 1-1,text,true,,305724,1382,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select,2938,0,0
+1687867751549,1534,Get Select Flight,200,OK,FlyLevel - run 1-1,text,true,,27345,4281,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Application/InternalError?aspxerrorpath=/Extras/Ancillaries,87,0,0
+1687867751549,87,Get Select Flight-0,302,Found,FlyLevel - run 1-1,text,true,,1076,1466,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select,87,0,0
+1687867751637,971,Get Select Flight-1,302,Found,FlyLevel - run 1-1,text,true,,1360,1387,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Extras/Ancillaries,971,0,0
+1687867752608,475,Get Select Flight-2,200,OK,FlyLevel - run 1-1,text,true,,24909,1428,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Application/InternalError?aspxerrorpath=/Extras/Ancillaries,474,0,0

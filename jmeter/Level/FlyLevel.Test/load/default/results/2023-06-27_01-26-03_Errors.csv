@@ -1,0 +1,6100 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687865163531,310,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,309,0,255
+1687865163531,319,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,319,0,262
+1687865163531,319,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,319,0,262
+1687865163531,319,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,319,0,262
+1687865163531,319,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,319,0,262
+1687865163531,319,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,319,0,262
+1687865163531,319,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,319,0,262
+1687865163531,320,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,320,0,262
+1687865163531,322,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,322,0,268
+1687865163531,326,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,326,0,271
+1687865163844,53,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865163852,55,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865163852,55,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865163852,55,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865163852,55,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865163852,57,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,57,0,0
+1687865163852,57,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,57,0,0
+1687865163852,57,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,57,0,0
+1687865163854,55,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865163857,55,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865163898,54,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865163908,57,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,57,0,0
+1687865163908,57,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,57,0,0
+1687865163910,56,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865163908,58,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,57,0,0
+1687865163910,57,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,57,0,0
+1687865163912,55,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865163908,58,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,57,0,0
+1687865163910,55,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865163909,58,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,58,0,0
+1687865163952,62,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,62,0,0
+1687865163966,53,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865163967,54,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,54,0,0
+1687865163968,54,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,54,0,0
+1687865163967,55,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865163968,54,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,54,0,0
+1687865163967,55,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865163968,55,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865163968,56,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865163968,56,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865164015,51,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,51,0,0
+1687865164020,54,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164021,54,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164023,53,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164023,54,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164023,54,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164024,54,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164023,55,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865164025,54,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164024,55,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865164067,51,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,51,0,0
+1687865164074,59,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,59,0,0
+1687865164076,57,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,57,0,0
+1687865164077,56,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865164078,56,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865164078,55,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865164077,56,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865164078,55,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865164080,63,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,63,0,0
+1687865164080,63,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,63,0,0
+1687865164119,51,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,51,0,0
+1687865164134,53,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164134,53,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164134,53,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164134,54,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164135,53,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164135,53,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164134,55,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865164144,56,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865164144,56,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865164171,52,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,52,0,0
+1687865164187,53,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164187,53,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164188,53,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164187,54,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,54,0,0
+1687865164188,53,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164188,53,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164189,64,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,64,0,0
+1687865164200,56,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865164200,56,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865164223,50,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,50,0,0
+1687865164241,53,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164241,53,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164242,52,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,52,0,0
+1687865164242,52,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,52,0,0
+1687865164242,53,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164242,59,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,59,0,0
+1687865164257,69,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,69,0,0
+1687865164257,69,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,69,0,0
+1687865164253,73,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,73,0,0
+1687865164273,53,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164294,54,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,54,0,0
+1687865164294,54,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,54,0,0
+1687865164294,54,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,54,0,0
+1687865164294,54,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,54,0,0
+1687865164296,53,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164301,72,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,72,0,0
+1687865164326,50,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,50,0,0
+1687865164326,55,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865164326,56,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865164326,56,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865164348,53,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164348,53,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164348,53,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164348,54,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164350,55,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865164376,50,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,50,0,0
+1687865164373,54,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164382,55,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865164382,56,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865164382,56,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865164428,76,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,76,0,0
+1687865164402,102,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,102,0,0
+1687865164405,99,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,99,0,0
+1687865164402,102,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,102,0,0
+1687865164402,102,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,102,0,0
+1687865164402,102,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,102,0,0
+1687865164426,78,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,78,0,0
+1687865164438,108,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,108,0,0
+1687865164438,111,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,111,0,0
+1687865164438,111,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,111,0,0
+1687865164507,60,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,60,0,0
+1687865164505,65,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,65,0,0
+1687865164505,65,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,65,0,0
+1687865164505,66,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,66,0,0
+1687865164505,66,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,66,0,0
+1687865164505,66,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,66,0,0
+1687865164505,66,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,66,0,0
+1687865164547,55,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865164549,57,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,57,0,0
+1687865164549,57,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,57,0,0
+1687865164568,51,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,51,0,0
+1687865164572,52,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,52,0,0
+1687865164572,60,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,60,0,0
+1687865164571,53,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164571,53,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164570,53,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164570,53,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164603,66,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,66,0,0
+1687865164606,63,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,63,0,0
+1687865164606,63,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,63,0,0
+1687865164619,50,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,50,0,0
+1687865164644,71,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,71,0,0
+1687865164644,71,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,71,0,0
+1687865164644,71,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,71,0,0
+1687865164644,72,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,72,0,0
+1687865164644,72,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,72,0,0
+1687865164644,72,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,72,0,0
+1687865164670,52,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,52,0,0
+1687865164670,56,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865164670,58,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,58,0,0
+1687865164670,58,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,58,0,0
+1687865164715,55,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865164715,55,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865164715,55,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865164722,49,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,49,0,0
+1687865164716,57,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,57,0,0
+1687865164716,57,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,57,0,0
+1687865164716,58,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,58,0,0
+1687865164726,56,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865164729,56,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865164729,56,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865164772,51,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,51,0,0
+1687865164771,54,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164771,54,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164771,55,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865164773,53,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164773,53,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164774,54,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164782,54,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164785,56,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865164785,56,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865164824,50,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,50,0,0
+1687865164826,53,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164825,54,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,54,0,0
+1687865164827,52,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,52,0,0
+1687865164827,52,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,52,0,0
+1687865164827,53,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164829,53,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865164837,55,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865164841,56,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865164841,56,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865164875,51,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,51,0,0
+1687865164879,53,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164879,53,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164879,53,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164879,53,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865164880,54,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164882,54,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865164892,56,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865164897,102,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,102,0,0
+1687865164933,66,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,66,0,0
+1687865164933,66,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,66,0,0
+1687865164934,65,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,65,0,0
+1687865164933,66,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,66,0,0
+1687865164933,66,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,66,0,0
+1687865164936,63,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,63,0,0
+1687865164927,72,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,72,0,0
+1687865164897,102,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,102,0,0
+1687865164948,55,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865165001,51,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,51,0,0
+1687865165001,55,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865165001,55,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865165000,56,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865165000,56,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865165000,56,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865165000,56,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865165002,55,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865165000,57,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,57,0,0
+1687865165003,55,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865165056,56,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165056,56,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165056,56,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165056,56,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165056,56,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165056,56,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165052,60,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,60,0,0
+1687865165057,57,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,57,0,0
+1687865165058,56,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165057,58,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,58,0,0
+1687865165112,62,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,62,0,0
+1687865165113,61,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,61,0,0
+1687865165112,62,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,62,0,0
+1687865165112,62,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,62,0,0
+1687865165112,62,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,62,0,0
+1687865165112,62,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,62,0,0
+1687865165112,62,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,62,0,0
+1687865165115,60,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,59,0,0
+1687865165115,59,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,59,0,0
+1687865165115,59,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,59,0,0
+1687865165175,51,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,51,0,0
+1687865165175,52,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,52,0,0
+1687865165175,52,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,52,0,0
+1687865165175,52,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,52,0,0
+1687865165175,53,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865165175,53,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865165175,58,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,58,0,0
+1687865165175,58,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,58,0,0
+1687865165175,58,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,58,0,0
+1687865165175,58,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,58,0,0
+1687865165227,50,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,50,0,0
+1687865165227,53,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865165227,55,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865165227,55,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865165228,58,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,58,0,0
+1687865165228,58,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,58,0,0
+1687865165234,54,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865165234,55,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865165234,56,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165234,56,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165277,52,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,52,0,0
+1687865165281,56,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165282,55,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865165282,55,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865165286,53,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865165286,55,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865165288,56,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165289,55,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865165290,58,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,58,0,0
+1687865165290,58,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,58,0,0
+1687865165330,51,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,51,0,0
+1687865165338,56,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865165338,56,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865165338,56,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,56,0,0
+1687865165339,55,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865165342,53,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865165344,54,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865165344,55,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,55,0,0
+1687865165349,55,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865165349,55,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,55,0,0
+1687865165381,57,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,57,0,0
+1687865165394,58,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,58,0,0
+1687865165394,58,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,58,0,0
+1687865165394,58,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,58,0,0
+1687865165399,54,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,54,0,0
+1687865165396,56,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165394,59,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,59,0,0
+1687865165400,57,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,57,0,0
+1687865165405,59,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,59,0,0
+1687865165405,59,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,59,0,0
+1687865165439,50,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,50,0,0
+1687865165453,53,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865165453,53,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865165453,53,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865165454,53,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865165453,54,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865165453,55,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865165457,54,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865165464,56,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165464,56,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,56,0,0
+1687865165490,50,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,49,0,0
+1687865165506,54,Get Select,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,54,0,0
+1687865165506,54,Get Select,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,54,0,0
+1687865165507,53,Get Select,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865165506,54,Get Select,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,54,0,0
+1687865165507,53,Get Select,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865165508,53,Get Select,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865165512,57,Get Select,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,57,0,0
+1687865165521,62,Get Home,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,62,0,0
+1687865165521,62,Get Home,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,62,0,0
+1687865165540,50,Get Home,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,50,0,0
+1687865165560,53,Get Home,400,Bad Request,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,53,0,0
+1687865165560,54,Get Home,400,Bad Request,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865165560,54,Get Home,400,Bad Request,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865165560,54,Get Home,400,Bad Request,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865165560,54,Get Home,400,Bad Request,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865165561,58,Get Home,400,Bad Request,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,58,0,0
+1687865165570,54,Get Home,400,Bad Request,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,201,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,54,0,0
+1687865165584,60,Get Select,400,Bad Request,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,60,0,0
+1687865165591,53,Get Select,400,Bad Request,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,53,0,0
+1687865165584,60,Get Select,400,Bad Request,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[4]]]00
+
+****** comparison: [[[2]]]00
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[201]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[400]]]
+
+****** comparison: [[[204]]]
+
+/	",906,217,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,60,0,0
+1687865165644,20,Get Home,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,FlyLevel - run 1-4,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,0,0,0
+1687865165620,45,Get Select,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,FlyLevel - run 1-10,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,0,0,0
+1687865165644,19,Get Home,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,0,0,0
+1687865165614,47,Get Select,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,FlyLevel - run 1-7,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,0,0,0
+1687865165644,18,Get Home,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,FlyLevel - run 1-6,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,0,0,0
+1687865165613,42,Get Select,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,FlyLevel - run 1-9,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,0,0,0
+1687865165625,33,Get Select,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,FlyLevel - run 1-5,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,0,0,0
+1687865165614,43,Get Select,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,FlyLevel - run 1-2,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,0,0,0
+1687865165614,46,Get Select,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,FlyLevel - run 1-3,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,0,0,0
+1687865165614,45,Get Select,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,FlyLevel - run 1-8,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,10,10,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select%20,0,0,0

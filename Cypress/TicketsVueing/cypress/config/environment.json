@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://skysales-qa04-03.vueling.com/",
+  "baseUrl": "https://skysales-bilbo.vueling.com/",
   "env": {
     "timeOutPersonalizado": "3000"
   }

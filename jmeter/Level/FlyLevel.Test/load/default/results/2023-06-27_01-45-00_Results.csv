@@ -1,0 +1,34 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687866301043,746,Get Home,200,OK,FlyLevel - run 1-1,text,true,,31228,270,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,695,0,332
+1687866301790,434,POST Flight,200,OK,FlyLevel - run 1-1,text,true,,10093,789,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Application/NotFound?aspxerrorpath=/Flight/InternalSelect,56,0,0
+1687866301790,56,POST Flight-0,302,Found,FlyLevel - run 1-1,text,true,,1050,462,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/InternalSelect?k=BCNEZE&o1=BCN&d1=EZE&ADT=1&CHD=0&inl=0&mm=false&dd1=2023-07-10&dd2=2023-07-15&r=true,56,0,0
+1687866301847,377,POST Flight-1,200,OK,FlyLevel - run 1-1,text,true,,9043,327,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Application/NotFound?aspxerrorpath=/Flight/InternalSelect,376,0,0
+1687866302224,403,Get Select Flight,200,OK,FlyLevel - run 1-1,text,true,,10093,789,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Application/NotFound?aspxerrorpath=/Flight/InternalSelect,77,0,0
+1687866302224,77,Get Select Flight-0,302,Found,FlyLevel - run 1-1,text,true,,1050,462,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/InternalSelect?k=BCNEZE&o1=BCN&d1=EZE&ADT=1&CHD=0&inl=0&mm=false&dd1=2023-07-10&dd2=2023-07-15&r=true,77,0,0
+1687866302302,325,Get Select Flight-1,200,OK,FlyLevel - run 1-1,text,true,,9043,327,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Application/NotFound?aspxerrorpath=/Flight/InternalSelect,324,0,0
+1687866302627,765,Get Home,200,OK,FlyLevel - run 1-1,text,true,,31228,270,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,764,0,0
+1687866303392,385,POST Flight,200,OK,FlyLevel - run 1-1,text,true,,10090,789,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Application/NotFound?aspxerrorpath=/Flight/InternalSelect,58,0,0
+1687866303392,59,POST Flight-0,302,Found,FlyLevel - run 1-1,text,true,,1050,462,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/InternalSelect?k=BCNEZE&o1=BCN&d1=EZE&ADT=1&CHD=0&inl=0&mm=false&dd1=2023-07-10&dd2=2023-07-15&r=true,58,0,0
+1687866303451,326,POST Flight-1,200,OK,FlyLevel - run 1-1,text,true,,9040,327,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Application/NotFound?aspxerrorpath=/Flight/InternalSelect,325,0,0
+1687866303777,439,Get Select Flight,200,OK,FlyLevel - run 1-1,text,true,,10092,789,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Application/NotFound?aspxerrorpath=/Flight/InternalSelect,55,0,0
+1687866303777,55,Get Select Flight-0,302,Found,FlyLevel - run 1-1,text,true,,1050,462,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/InternalSelect?k=BCNEZE&o1=BCN&d1=EZE&ADT=1&CHD=0&inl=0&mm=false&dd1=2023-07-10&dd2=2023-07-15&r=true,55,0,0
+1687866303832,384,Get Select Flight-1,200,OK,FlyLevel - run 1-1,text,true,,9042,327,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Application/NotFound?aspxerrorpath=/Flight/InternalSelect,384,0,0
+1687866304217,699,Get Home,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,FlyLevel - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/,0,0,0

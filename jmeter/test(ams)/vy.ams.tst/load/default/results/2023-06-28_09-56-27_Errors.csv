@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687982188353,444,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/,404,Not Found,VY.AMS.APIS - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",7921,2004,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,147,0,72
+1687982188353,147,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-0,302,Moved Temporarily,VY.AMS.APIS - run 1-1,text,true,,371,1311,1,1,http://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud/v2/AvailabilityServices/search/BBV,147,0,72
+1687982188501,295,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-1,404,Not Found,VY.AMS.APIS - run 1-1,text,false,,1841,693,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,295,0,221
+1687982188797,0,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-2,200,OK,VY.AMS.APIS - run 1-1,text,true,,5709,0,1,1,null,0,0,0
+1687982192359,435,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/,404,Not Found,VY.AMS.APIS - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",7922,2004,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,138,0,69
+1687982192359,139,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-0,302,Moved Temporarily,VY.AMS.APIS - run 1-2,text,true,,371,1311,1,1,http://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud/v2/AvailabilityServices/search/BBV,138,0,69
+1687982192498,295,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-1,404,Not Found,VY.AMS.APIS - run 1-2,text,false,,1841,693,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,295,0,222
+1687982192794,0,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-2,200,OK,VY.AMS.APIS - run 1-2,text,true,,5710,0,1,1,null,0,0,0

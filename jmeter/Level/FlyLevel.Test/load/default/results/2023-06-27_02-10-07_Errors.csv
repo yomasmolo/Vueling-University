@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687867809113,13498,GET Flight,200,OK,FlyLevel - run 1-1,text,false,Test failed: message expected to contain /Edit search/,307163,2859,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select,68,0,0
+1687867809113,68,GET Flight-0,302,Found,FlyLevel - run 1-1,text,true,,1439,1477,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/InternalSelect?k=BCNEZE&o1=BCN&d1=EZE&ADT=1&CHD=0&inl=0&mm=false&dd1=2023-07-10&dd2=2023-07-15&r=true,68,0,0
+1687867809182,13429,GET Flight-1,200,OK,FlyLevel - run 1-1,text,true,,305724,1382,1,1,https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/Flight/Select,13264,0,0

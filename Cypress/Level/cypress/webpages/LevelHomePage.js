@@ -20,6 +20,7 @@ export class LevelHomePage {
     months: () => cy.get("span.month"),
     arrowNextMonth: () => cy.get("button.datepicker__next-action"),
     availableDays: () => cy.get(".is-available:not(.is-previous-month)"),
+    textDayAvl: () => cy.get("div.is-available:not(.is-previous-month)"),
   };
 
   countPassengers = {
@@ -52,7 +53,7 @@ export class LevelHomePage {
     });
   }
 
-  selectMonthInCalendar(month) {
+  /*selectMonthInCalendar(month) {
     this.datepicker.months().should("be.visible");
     this.datepicker
       .months()
@@ -70,9 +71,29 @@ export class LevelHomePage {
         cy.scrollTo("top");
       });
   }
-
   selectFirstDayAvailable() {
     this.datepicker.availableDays().first().click();
+  }
+  */
+  changeMonth(monthNum) {
+    this.datepicker
+      .textDayAvl()
+      .first()
+      .invoke("attr", "data-time")
+      .then(($attr) => {
+        let month = new Date(parseInt($attr)).getMonth();
+        if (month < parseInt(monthNum)) {
+          this.datepicker.arrowNextMonth().click();
+          this.changeMonth(monthNum);
+        }
+        cy.scrollTo("top");
+      });
+  }
+
+  selectFirstDayAvailable(monthNum) {
+    monthNum--;
+    this.changeMonth(monthNum);
+    this.datepicker.textDayAvl().first().click();
   }
 
   selectPassengers(adults, childs, infants) {

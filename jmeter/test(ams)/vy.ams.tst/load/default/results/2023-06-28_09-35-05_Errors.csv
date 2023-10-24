@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687980905845,482,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/,404,Not Found,VY.AMS.APIS - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",7462,1120,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,170,0,72
+1687980905845,170,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-0,302,Moved Temporarily,VY.AMS.APIS - run 1-1,text,true,,371,856,1,1,http://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud/v2/AvailabilityServices/search/BBV,170,0,72
+1687980906016,307,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-1,404,Not Found,VY.AMS.APIS - run 1-1,text,false,,1841,264,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,307,0,230
+1687980906324,3,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-2,200,OK,VY.AMS.APIS - run 1-1,text,true,,5250,0,1,1,null,0,0,0

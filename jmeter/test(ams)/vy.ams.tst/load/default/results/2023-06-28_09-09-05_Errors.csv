@@ -1,0 +1,19 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687979346539,1367,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/,404,Not Found,VY.AMS.APIS - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",2212,1114,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,485,0,409
+1687979346539,485,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-0,302,Moved Temporarily,VY.AMS.APIS - run 1-1,text,true,,371,850,1,1,http://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud/v2/AvailabilityServices/search/BBV,485,0,409
+1687979347027,879,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-1,404,Not Found,VY.AMS.APIS - run 1-1,text,false,,1841,264,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,879,0,568
+1687979350471,432,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/,404,Not Found,VY.AMS.APIS - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",2212,1114,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,144,0,71
+1687979350471,144,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-0,302,Moved Temporarily,VY.AMS.APIS - run 1-2,text,true,,371,850,1,1,http://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud/v2/AvailabilityServices/search/BBV,144,0,71
+1687979350616,287,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-1,404,Not Found,VY.AMS.APIS - run 1-2,text,false,,1841,264,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,287,0,216

@@ -1,0 +1,19 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687979717120,503,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/,404,Not Found,VY.AMS.APIS - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",2212,1120,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,157,0,75
+1687979717120,157,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-0,302,Moved Temporarily,VY.AMS.APIS - run 1-1,text,true,,371,856,1,1,http://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud/v2/AvailabilityServices/search/BBV,157,0,75
+1687979717279,344,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-1,404,Not Found,VY.AMS.APIS - run 1-1,text,false,,1841,264,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,344,0,261
+1687979721110,459,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/,404,Not Found,VY.AMS.APIS - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",2212,1120,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,147,0,73
+1687979721110,147,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-0,302,Moved Temporarily,VY.AMS.APIS - run 1-2,text,true,,371,856,1,1,http://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud/v2/AvailabilityServices/search/BBV,147,0,73
+1687979721258,311,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-1,404,Not Found,VY.AMS.APIS - run 1-2,text,false,,1841,264,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,311,0,230

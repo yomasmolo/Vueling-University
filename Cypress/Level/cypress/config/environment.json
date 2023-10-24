@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://www.flylevel.com/",
+  "baseUrl": "https://pre-dotrez.main.level-pre.eu-west-1.vy-a.cloud/",
   "env": {
     "timeOutPersonalizado": "3000"
   }

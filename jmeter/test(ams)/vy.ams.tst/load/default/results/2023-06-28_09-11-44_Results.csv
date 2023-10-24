@@ -1,0 +1,20 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687979504666,423,VY.AMS.Resources - res/v1/Token/Create/C88654AE-FDE0-415E-ACA1-9EA1B6E72E38,200,OK,VY.AMS.APIS - setUp 1-1,text,true,,1255,1018,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud/res/v1/Token/Create/C88654AE-FDE0-415E-ACA1-9EA1B6E72E38,423,0,339
+1687979505225,469,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/,404,Not Found,VY.AMS.APIS - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",2212,1120,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,147,0,71
+1687979505225,147,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-0,302,Moved Temporarily,VY.AMS.APIS - run 1-1,text,true,,371,856,1,1,http://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud/v2/AvailabilityServices/search/BBV,147,0,71
+1687979505373,321,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-1,404,Not Found,VY.AMS.APIS - run 1-1,text,false,,1841,264,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,321,0,226
+1687979509215,588,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/,404,Not Found,VY.AMS.APIS - run 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",2212,1120,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,149,0,70
+1687979509215,149,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-0,302,Moved Temporarily,VY.AMS.APIS - run 1-2,text,true,,371,856,1,1,http://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud/v2/AvailabilityServices/search/BBV,149,0,70
+1687979509365,438,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-1,404,Not Found,VY.AMS.APIS - run 1-2,text,false,,1841,264,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud:443/v2/AvailabilityServices/search/BBV,438,0,295

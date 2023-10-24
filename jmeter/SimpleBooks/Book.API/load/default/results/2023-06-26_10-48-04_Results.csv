@@ -1,0 +1,22 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687769284627,2733,/api-clients,422,Unprocessable Entity,SimpleBooksApi - setUp 1-1,text,false,,339,275,1,1,https://simple-books-api.glitch.me/api-clients,2733,0,335
+1687769287494,3488,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,230,1,1,https://simple-books-api.glitch.me/status,3488,0,329
+1687769290983,217,/books,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,1,1,https://simple-books-api.glitch.me/books,0,0,0

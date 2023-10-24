@@ -22,10 +22,10 @@ scenarios:
       Protocol: https
       ResultsPath: ${BASE_DIR}\load\default\Results.csv
       ErrorsPath: ${BASE_DIR}\load\default\Errors.csv
-      TestDuration: 30
+      TestDuration: 60
       RampUp: 0
-      Threads: 2
-      Rpm: 5
+      Threads: 10
+      Rpm: 240
   load:
     script: ${BASE_DIR}\load\default\testScript.jmx
     variables:
@@ -33,10 +33,21 @@ scenarios:
       Protocol: https
       ResultsPath: ${BASE_DIR}\load\Results.csv
       ErrorsPath: ${BASE_DIR}\load\Errors.csv
-      TestDuration: 30
+      TestDuration: 60
       RampUp: 0
-      Threads: 2
-      Rpm: 5
+      Threads: 10
+      Rpm: 240
+  max:
+    script: ${BASE_DIR}\load\default\testScript.jmx
+    variables:
+      Url: pokeapi.co
+      Protocol: https
+      ResultsPath: ${BASE_DIR}\load\Results.csv
+      ErrorsPath: ${BASE_DIR}\load\Errors.csv
+      TestDuration: 60
+      RampUp: 0
+      Threads: 25
+      Rpm: 3000
 
 reporting:
   - module: final-stats

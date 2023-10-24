@@ -4,9 +4,9 @@ export class PassengersPage {
   //Elements
   firstpassengerName = (i) => cy.get(`#ContactViewControlGroupMainContact_BoxPassengerInformationView_TextBoxFirstName_${i}`);
   firstpassengerLastname = (i) => cy.get(`#ContactViewControlGroupMainContact_BoxPassengerInformationView_TextBoxLastName_${i}`);
-  infantNameInput = (i) => cy.get(`#ContactViewControlGroupMainContact_BoxPassengerInformationView_TextBoxFirstName_0_${i}`);
-  infantLastnameInput = (i) => cy.get(`#ContactViewControlGroupMainContact_BoxPassengerInformationView_TextBoxLastName_0_${i}`);
-  infantBirthdate = () => cy.get(`[name="birthDate1_1"]`);
+  infantNameInput = (i) => cy.get(`#ContactViewControlGroupMainContact_BoxPassengerInformationView_TextBoxFirstName_${i}_${i}`);
+  infantLastnameInput = (i) => cy.get(`#ContactViewControlGroupMainContact_BoxPassengerInformationView_TextBoxLastName_${i}_${i}`);
+  infantBirthdate = (i) => cy.get(`[name="birthDate${i + 1}_${i + 1}"]`);
   readyBtn = (btnPosition) => cy.get(`[position="${btnPosition}"]`);
   selectCountry = () =>
     cy.get(`#ContactViewControlGroupMainContact_BoxPassengerInformationView_BoxContactInformationView_DropDownListCountry`);
@@ -25,7 +25,7 @@ export class PassengersPage {
       if (infants > 0) {
         this.infantNameInput(i).should("be.visible").type(infantName);
         this.infantLastnameInput(i).should("be.visible").type(infantLastname);
-        this.infantBirthdate().should("be.visible").type("25/08/2022");
+        this.infantBirthdate(i).should("be.visible").type("25/08/2022");
         infants--;
       }
       btnPosition++;

@@ -1,0 +1,51 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687773710859,694,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,337,1,1,https://simple-books-api.glitch.me/api-clients,694,0,371
+1687773711696,457,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,456,0,321
+1687773712153,116,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,116,0,0
+1687773712269,126,/books/1,200,OK,SimpleBooksApi - run 1-1,text,true,,374,295,1,1,https://simple-books-api.glitch.me/books/1,126,0,0
+1687773712404,114,/books/1,200,OK,SimpleBooksApi - run 1-1,text,true,,374,295,1,1,https://simple-books-api.glitch.me/books/1,114,0,0
+1687773712522,344,/orders,201,Created,SimpleBooksApi - run 1-1,text,true,,267,349,1,1,https://simple-books-api.glitch.me/orders,344,0,0
+1687773712869,277,/orders,200,OK,SimpleBooksApi - run 1-1,text,true,,396,294,1,1,https://simple-books-api.glitch.me/orders,277,0,0
+1687773713149,404,/orders/XrnHMnfsONRFdZTq_5sjW,200,OK,SimpleBooksApi - run 1-1,text,true,,394,316,1,1,https://simple-books-api.glitch.me/orders/XrnHMnfsONRFdZTq_5sjW,404,0,0
+1687773713556,302,/orders/XrnHMnfsONRFdZTq_5sjW,204,No Content,SimpleBooksApi - run 1-1,,true,,111,369,1,1,https://simple-books-api.glitch.me/orders/XrnHMnfsONRFdZTq_5sjW,0,0,0
+1687773713861,1382,/orders/XrnHMnfsONRFdZTq_5sjW,204,No Content,SimpleBooksApi - run 1-1,,true,,111,338,1,1,https://simple-books-api.glitch.me/orders/XrnHMnfsONRFdZTq_5sjW,0,0,0
+1687773715243,492,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,492,0,0
+1687773715736,134,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,134,0,0
+1687773715871,115,/books/2,200,OK,SimpleBooksApi - run 1-1,text,true,,338,295,1,1,https://simple-books-api.glitch.me/books/2,115,0,0
+1687773715991,114,/books/2,200,OK,SimpleBooksApi - run 1-1,text,true,,338,295,1,1,https://simple-books-api.glitch.me/books/2,114,0,0
+1687773716107,120,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,120,0,0
+1687773716228,119,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,119,0,0
+1687773716347,116,/books/3,200,OK,SimpleBooksApi - run 1-1,text,true,,340,295,1,1,https://simple-books-api.glitch.me/books/3,116,0,0
+1687773716465,115,/books/3,200,OK,SimpleBooksApi - run 1-1,text,true,,340,295,1,1,https://simple-books-api.glitch.me/books/3,115,0,0
+1687773716585,371,/orders,201,Created,SimpleBooksApi - run 1-1,text,true,,267,351,1,1,https://simple-books-api.glitch.me/orders,371,0,0
+1687773716960,344,/orders,200,OK,SimpleBooksApi - run 1-1,text,true,,398,294,1,1,https://simple-books-api.glitch.me/orders,344,0,0
+1687773717307,636,/orders/9kedclSJw5MFAo5kAdOtx,200,OK,SimpleBooksApi - run 1-1,text,true,,396,316,1,1,https://simple-books-api.glitch.me/orders/9kedclSJw5MFAo5kAdOtx,636,0,0
+1687773717947,365,/orders/9kedclSJw5MFAo5kAdOtx,204,No Content,SimpleBooksApi - run 1-1,,true,,111,370,1,1,https://simple-books-api.glitch.me/orders/9kedclSJw5MFAo5kAdOtx,0,0,0
+1687773718314,832,/orders/9kedclSJw5MFAo5kAdOtx,204,No Content,SimpleBooksApi - run 1-1,,true,,111,338,1,1,https://simple-books-api.glitch.me/orders/9kedclSJw5MFAo5kAdOtx,0,0,0
+1687773719146,296,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,296,0,0
+1687773719442,119,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,119,0,0
+1687773719561,115,/books/4,200,OK,SimpleBooksApi - run 1-1,text,true,,338,295,1,1,https://simple-books-api.glitch.me/books/4,115,0,0
+1687773719679,116,/books/4,200,OK,SimpleBooksApi - run 1-1,text,true,,338,295,1,1,https://simple-books-api.glitch.me/books/4,116,0,0
+1687773719799,259,/orders,201,Created,SimpleBooksApi - run 1-1,text,true,,267,350,1,1,https://simple-books-api.glitch.me/orders,259,0,0
+1687773720065,285,/orders,200,OK,SimpleBooksApi - run 1-1,text,true,,397,294,1,1,https://simple-books-api.glitch.me/orders,285,0,0
+1687773720356,306,/orders/6YDqfZvsB9g-ba5CDHVCp,200,OK,SimpleBooksApi - run 1-1,text,true,,395,316,1,1,https://simple-books-api.glitch.me/orders/6YDqfZvsB9g-ba5CDHVCp,306,0,0
+1687773720665,284,/orders/6YDqfZvsB9g-ba5CDHVCp,204,No Content,SimpleBooksApi - run 1-1,,true,,111,368,1,1,https://simple-books-api.glitch.me/orders/6YDqfZvsB9g-ba5CDHVCp,0,0,0
+1687773720952,698,/orders/6YDqfZvsB9g-ba5CDHVCp,204,No Content,SimpleBooksApi - run 1-1,,true,,111,338,1,1,https://simple-books-api.glitch.me/orders/6YDqfZvsB9g-ba5CDHVCp,0,0,0
+1687773721651,594,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,594,0,0
+1687773722245,199,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,199,0,0
+1687773722445,192,/books/5,200,OK,SimpleBooksApi - run 1-1,text,true,,333,295,1,1,https://simple-books-api.glitch.me/books/5,192,0,0
+1687773722640,141,/books/5,200,OK,SimpleBooksApi - run 1-1,text,true,,333,295,1,1,https://simple-books-api.glitch.me/books/5,141,0,0
+1687773722784,259,/orders,201,Created,SimpleBooksApi - run 1-1,text,true,,267,349,1,1,https://simple-books-api.glitch.me/orders,259,0,0
+1687773723048,404,/orders,200,OK,SimpleBooksApi - run 1-1,text,true,,396,294,1,1,https://simple-books-api.glitch.me/orders,404,0,0
+1687773723455,119,/orders/FcmIp93h-9C7otaknOPe6,200,OK,SimpleBooksApi - run 1-1,text,true,,394,316,1,1,https://simple-books-api.glitch.me/orders/FcmIp93h-9C7otaknOPe6,119,0,0
+1687773723576,310,/orders/FcmIp93h-9C7otaknOPe6,204,No Content,SimpleBooksApi - run 1-1,,true,,111,369,1,1,https://simple-books-api.glitch.me/orders/FcmIp93h-9C7otaknOPe6,0,0,0
+1687773723889,759,/orders/FcmIp93h-9C7otaknOPe6,204,No Content,SimpleBooksApi - run 1-1,,true,,111,338,1,1,https://simple-books-api.glitch.me/orders/FcmIp93h-9C7otaknOPe6,0,0,0
+1687773724649,299,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,299,0,0
+1687773724949,287,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,287,0,0
+1687773725236,113,/books/6,200,OK,SimpleBooksApi - run 1-1,text,true,,343,295,1,1,https://simple-books-api.glitch.me/books/6,113,0,0
+1687773725352,116,/books/6,200,OK,SimpleBooksApi - run 1-1,text,true,,343,295,1,1,https://simple-books-api.glitch.me/books/6,116,0,0
+1687773725471,271,/orders,201,Created,SimpleBooksApi - run 1-1,text,true,,267,350,1,1,https://simple-books-api.glitch.me/orders,271,0,0
+1687773725744,502,/orders,200,OK,SimpleBooksApi - run 1-1,text,true,,397,294,1,1,https://simple-books-api.glitch.me/orders,502,0,0
+1687773726248,122,/orders/atw2FfjGj-wi1SnXgFVFy,200,OK,SimpleBooksApi - run 1-1,text,true,,395,316,1,1,https://simple-books-api.glitch.me/orders/atw2FfjGj-wi1SnXgFVFy,122,0,0
+1687773726374,279,/orders/atw2FfjGj-wi1SnXgFVFy,204,No Content,SimpleBooksApi - run 1-1,,true,,111,369,1,1,https://simple-books-api.glitch.me/orders/atw2FfjGj-wi1SnXgFVFy,0,0,0
+1687773726655,786,/orders/atw2FfjGj-wi1SnXgFVFy,204,No Content,SimpleBooksApi - run 1-1,,true,,111,338,1,1,https://simple-books-api.glitch.me/orders/atw2FfjGj-wi1SnXgFVFy,0,0,0

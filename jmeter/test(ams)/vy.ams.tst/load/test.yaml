@@ -1,0 +1,61 @@
+---
+settings:
+  artifacts-dir: C:\Users\ignaciod\Desktop\AMS\VY.AMS.CheckinTest\load\artifacts_tmp
+  env:
+    BASE_DIR: C:\Users\ignaciod\Desktop\AMS\VY.AMS.CheckinTest
+
+services:
+  - module: shellexec
+    post-process:
+      - mkdir ${BASE_DIR}\load\default\HTML
+      - jmeter -g ${BASE_DIR}\load\default\Results.csv -o ${BASE_DIR}\load\default\HTML
+
+execution:
+  - executor: jmeter
+    scenario: load
+
+scenarios:
+  smoke:
+    script: ${BASE_DIR}\load\default\testScript.jmx
+    variables:
+      Url: pokeapi.co
+      Protocol: https
+      ResultsPath: ${BASE_DIR}\load\default\Results.csv
+      ErrorsPath: ${BASE_DIR}\load\default\Errors.csv
+      TestDuration: 60
+      RampUp: 0
+      Threads: 1
+      Rpm: 1
+  load:
+    script: ${BASE_DIR}\load\default\testScript.jmx
+    variables:
+      Url: pokeapi.co
+      Protocol: https
+      ResultsPath: ${BASE_DIR}\load\default\Results.csv
+      ErrorsPath: ${BASE_DIR}\load\default\Errors.csv
+      TestDuration: 60
+      RampUp: 0
+      Threads: 10
+      Rpm: 360
+  maximus:
+    script: ${BASE_DIR}\load\default\testScript.jmx
+    variables:
+      Url: pokeapi.co
+      Protocol: https
+      ResultsPath: ${BASE_DIR}\load\default\Results.csv
+      ErrorsPath: ${BASE_DIR}\load\default\Errors.csv
+      TestDuration: 60
+      RampUp: 0
+      Threads: 20
+      Rpm: 2000
+
+reporting:
+  - module: final-stats
+    summary: true
+    percentiles: true
+    failed-labels: false
+    test-duration: true
+  - module: blazemeter
+    report-name: Taurus test report demo
+    test: Taurus demo test
+    project: Taurus demo test project

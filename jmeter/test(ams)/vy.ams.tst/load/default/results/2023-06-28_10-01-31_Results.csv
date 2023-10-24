@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687982491568,122,VY.AMS.Resources - res/v1/Token/Create/C88654AE-FDE0-415E-ACA1-9EA1B6E72E38,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: ams-tst.main.ams-dev.eu-west-1.vy-a.cloud,VY.AMS.APIS - setUp 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",2318,0,1,1,https://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud/res/v1/Token/Create/C88654AE-FDE0-415E-ACA1-9EA1B6E72E38,0,0,122
+1687982491833,1,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: ams-tst.main.ams-dev.eu-west-1.vy-a.cloud,VY.AMS.APIS - run 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",7310,0,1,1,http://ams-tst.main.ams-dev.eu-west-1.vy-a.cloud/v2/AvailabilityServices/search/BBV,0,0,1
+1687982491834,0,VY.AMS.Availability - ams-tst.main.ams-dev.eu-west-1.vy-a.cloud - /v2/AvailabilityServices/search/-0,200,OK,VY.AMS.APIS - run 1-1,text,true,,5188,0,1,1,null,0,0,0

@@ -1,0 +1,39 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687770616869,695,/api-clients,201,Created,SimpleBooksApi - setUp 1-1,text,true,,299,337,1,1,https://simple-books-api.glitch.me/api-clients,695,0,391
+1687770617719,458,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,458,0,337
+1687770618178,120,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,120,0,0
+1687770618299,120,/books/1,200,OK,SimpleBooksApi - run 1-1,text,true,,374,295,1,1,https://simple-books-api.glitch.me/books/1,120,0,0
+1687770618429,119,/books/1,200,OK,SimpleBooksApi - run 1-1,text,true,,374,295,1,1,https://simple-books-api.glitch.me/books/1,119,0,0
+1687770618553,225,/orders,201,Created,SimpleBooksApi - run 1-1,text,true,,267,350,1,1,https://simple-books-api.glitch.me/orders,225,0,0
+1687770618783,489,/orders,200,OK,SimpleBooksApi - run 1-1,text,true,,397,294,1,1,https://simple-books-api.glitch.me/orders,489,0,0
+1687770619277,189,/orders/86INcdM5SoEwKOrmn4-BX,200,OK,SimpleBooksApi - run 1-1,text,true,,395,316,1,1,https://simple-books-api.glitch.me/orders/86INcdM5SoEwKOrmn4-BX,189,0,0
+1687770619469,294,/orders/86INcdM5SoEwKOrmn4-BX,204,No Content,SimpleBooksApi - run 1-1,,true,,111,369,1,1,https://simple-books-api.glitch.me/orders/86INcdM5SoEwKOrmn4-BX,0,0,0
+1687770619768,720,/orders/86INcdM5SoEwKOrmn4-BX,204,No Content,SimpleBooksApi - run 1-1,,true,,111,338,1,1,https://simple-books-api.glitch.me/orders/86INcdM5SoEwKOrmn4-BX,0,0,0
+1687770620489,364,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,364,0,0
+1687770620853,222,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,222,0,0
+1687770621076,124,/books/2,200,OK,SimpleBooksApi - run 1-1,text,true,,338,295,1,1,https://simple-books-api.glitch.me/books/2,124,0,0
+1687770621207,252,/books/2,200,OK,SimpleBooksApi - run 1-1,text,true,,338,295,1,1,https://simple-books-api.glitch.me/books/2,252,0,0
+1687770621461,197,/status,200,OK,SimpleBooksApi - run 1-1,text,true,,226,294,1,1,https://simple-books-api.glitch.me/status,197,0,0
+1687770621658,123,/books,200,OK,SimpleBooksApi - run 1-1,text,true,,631,293,1,1,https://simple-books-api.glitch.me/books,122,0,0
+1687770621782,119,/books/3,200,OK,SimpleBooksApi - run 1-1,text,true,,340,295,1,1,https://simple-books-api.glitch.me/books/3,119,0,0
+1687770621906,120,/books/3,200,OK,SimpleBooksApi - run 1-1,text,true,,340,295,1,1,https://simple-books-api.glitch.me/books/3,120,0,0
+1687770622030,342,/orders,201,Created,SimpleBooksApi - run 1-1,text,true,,267,349,1,1,https://simple-books-api.glitch.me/orders,342,0,0
+1687770622376,279,/orders,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,SimpleBooksApi - run 1-1,text,false,"Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[201                                             ]]]
+
+/	Test failed: code expected something using /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[204                                             ]]]
+
+/	",2859,0,1,1,https://simple-books-api.glitch.me/orders,0,0,0
